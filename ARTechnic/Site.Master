@@ -11,7 +11,7 @@
     <!-- FONT BLOCK -->
 
     <!-- CSS BLOCK -->
-    <link rel="icon" href="Images/logo_ar.ico" />
+    <link rel="icon" href="~/Images/logo_ar.ico" />
     <!-- CSS BLOCK -->
 
     <asp:PlaceHolder runat="server">
@@ -23,7 +23,7 @@
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
 
 </head>
-<body class="home blog header_2 fullwidth_slider">
+<body class="page page-id-163 page-template-default header_2">
     <form runat="server">
         <div class="top_nav">
             <div class="container">

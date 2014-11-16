@@ -9,7 +9,7 @@ namespace ARTechnic.App_Start
         {
             bundles.Add(new ScriptBundle("~/bundles/scripts").Include(
                 "~/Scripts/jquery-1.11.1.min.js",
-                "~/Scripts/site-master.js").IncludeDirectory("~/Content/js", "*.js", true));
+                "~/Scripts/site-master.js").IncludeDirectory("~/Content", "*.js", true));
 
             //bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
             //            "~/Scripts/jquery-ui-{version}.js"));

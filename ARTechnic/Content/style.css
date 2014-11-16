@@ -2697,7 +2697,7 @@
 
   box-shadow: inset 0 1px 13px 2px rgba(102,102,102,0.13);
 
-  }}
+  }
 
   .section-style .second_testimonial .arrow{display:none}
 
@@ -3147,15 +3147,15 @@
 
   .tabbable{ }
 
-  .nav-tabs{margin-top:0; padding-left:0; margin-bottom:0px; }
+  .nav-tabs{margin-top:0; padding-left:0; margin-bottom:0px !important; }
 
-  .nav-tabs li{background:#f7f7f7; height:33px;  margin-left:0;   position: relative; z-index:9; border-left:1px solid #d8d8d8; border-top:1px solid #d8d8d8; 
+  .nav-tabs li{background:#f7f7f7; height:43px;  margin-left:0;   position: relative; z-index:9; border-left:1px solid #d8d8d8; border-top:1px solid #d8d8d8; 
 
 
 
   }  
 
-  .nav-tabs li.active{height:33px; position: relative; z-index:999; background:#fff; border-bottom:1px solid #fff;}
+  .nav-tabs li.active{height:43px; position: relative; z-index:999; background:#fff; border-bottom:1px solid #fff;}
 
 
 
@@ -6186,20 +6186,7 @@
 
 
 
-  @-webkit-animation expandWidth {
-
-     0% { width: 0; }
-
-     100% { width: auto; }
-
-  }
-
-
-
-
-
-
-
+  /*@-webkit-animation expand-Width{0%{ width: 0; }100%{ width: auto; }}*/
 
 
   .recent_portfolio img.start_animation {
@@ -7023,10 +7010,7 @@
 
   .page-id-475 .header_page{margin-bottom:0; padding-bottom:0}
 
-   body{background: #fbfbfb 
-
-    
-    }
+   body{background: #fbfbfb !important}
 
     input,button,select,textarea,body,span, aside .widget_twitter li, aside ul li a{font-family: Roboto; font-size: 12px; color:#999999 }
 
