@@ -75,7 +75,8 @@
   <ItemGroup>
     <Content Include="about.aspx" />
     <Content Include="Contact.aspx" />
-    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap-responsive.css" />
+    <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\eldo.css" />
     <Content Include="Content\css\flexslider.css" />
     <Content Include="Content\css\hoverex-all.css" />
@@ -91,6 +92,8 @@
     <Content Include="Content\fancybox\source\jquery.fancybox68b3.js" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\fonts\moon.svg" />
+    <Content Include="Content\images\ar-logo-full-w.png" />
+    <Content Include="Content\images\ar-logo-full.png" />
     <Content Include="Content\img\address.png" />
     <Content Include="Content\img\ar-logo-full-w.png" />
     <Content Include="Content\img\ar-logo-full.png" />
@@ -180,7 +183,7 @@
     <Content Include="Content\img\wrapperbg.png" />
     <Content Include="Content\js\animations.js" />
     <Content Include="Content\js\animations68b3.js" />
-    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\bootstrap.min68b3.js" />
     <Content Include="Content\js\customSelect.jquery.min68b3.js" />
     <Content Include="Content\js\isotope68b3.js" />
     <Content Include="Content\js\jquery-migrate.min.js" />
@@ -255,7 +258,6 @@
     <Content Include="Content\plugins\revslider\rs-plugin\images\gradient\g30.png" />
     <Content Include="Content\plugins\revslider\rs-plugin\images\gradient\g40.png" />
     <Content Include="Content\plugins\revslider\rs-plugin\js\jquery.themepunch.revolution.min.js" />
-    <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -314,7 +316,9 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\jquery-1.11.1.min.js" />
     <Content Include="Scripts\site-master.js" />
     <Content Include="services.aspx" />

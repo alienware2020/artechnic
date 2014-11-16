@@ -23,16 +23,8 @@ namespace ARTechnic.App_Start
             //bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
             //            "~/Scripts/modernizr-*"));
 
-            bundles.Add(new StyleBundle("~/Content/styles").Include("~/Content/style.css",
-                                                                 "~/Content/css/bootstrap.min.css",
-                                                                 "~/Content/fancybox/source/jquery.fancybox1c51.css",
-                                                                 "~/Content/css/hoverex-all.css",
-                                                                 "~/Content/css/vector-icons.css",
-                                                                 "~/Content/css/jquery.easy-pie-chart.css",
-                                                                 "~/Content/plugins/LayerSlider/css/layerslider.css",
-                                                                 "~/Content/plugins/revslider/rs-plugin/css/settings.css",
-                                                                 "~/Content/plugins/revslider/rs-plugin/css/captions.css"));
-           
+            bundles.Add(new StyleBundle("~/Content/styles").IncludeDirectory("~/Content", "*.css", true));
+
         }
     }
 }

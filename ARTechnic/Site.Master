@@ -1,7 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ARTechnic.SiteMaster" %>
 
-<%@ Import Namespace="System.Web.Optimization" %>
-
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
@@ -30,11 +28,11 @@
         <div class="top_nav">
             <div class="container">
                 <div class="row-fluid">
-                    <div class="col-md-6" style="width: inherit">
+                    <div class="span6" style="width: inherit">
                         <div class="pull-right">
                             <div id="social_widget-2" class="widget social_widget">
                                 <div class="row-fluid social_row">
-                                    <div class="col-md-12">
+                                    <div class="span12">
                                         <ul class="footer_social_icons">
                                             <li class="youtube"><a href="#"><span></span></a></li>
                                             <li class="twitter"><a href="https://twitter.com/ARTechnic"><span></span></a></li>
@@ -52,17 +50,17 @@
         <header id="header" class="header_2">
             <div class="container">
                 <div class="row-fluid" style="padding-top: 15px; padding-bottom: 15px;">
-                    <div class="col-md-12">
+                    <div class="span12">
                         <div id="logo" class="">
                             <a href='Default.aspx'>
-                                <img alt="img" src="content/img/ar-logo-full.png" /></a><span class="logo_desc"></span>
+                                <img alt="img" src="content/images/ar-logo-full.png" /></a><span class="logo_desc"></span>
                         </div>
                         <div id="navigation" class="nav_top pull-right  ">
                             <nav>
-                                <ul id="menu-menu" class="menu nav navbar-nav">
-                                    <li id="home"><a href="Default.aspx">Home</a>
+                                <ul id="menu-menu" class="menu">
+                                    <li id="home"><a href="Default">Home</a>
                                     </li>
-                                    <li id="services"><a href="services.aspx">Services</a>
+                                    <li id="services"><a href="services">Services</a>
                                         <ul class="sub-menu">
                                             <li><a href="#">Website Development</a></li>
                                             <li><a href="#">Custom Web Application</a></li>
@@ -70,17 +68,17 @@
                                             <li><a href="#">Graphics Design</a></li>
                                         </ul>
                                     </li>
-                                    <li id="pricing"><a href="pricing.aspx">Pricing</a>
+                                    <li id="pricing"><a href="pricing">Pricing</a>
                                     </li>
-                                    <li id="portfolio"><a href="portfolio.aspx">Portfolio</a>
+                                    <li id="portfolio"><a href="portfolio">Portfolio</a>
                                     </li>
                                     <li id="about"><a href="#">About</a>
                                         <ul class="sub-menu">
-                                            <li><a href="team.aspx">Team</a></li>
-                                            <li><a href="whyus.aspx">Why Us</a></li>
+                                            <li><a href="team">Team</a></li>
+                                            <li><a href="whyus">Why Us</a></li>
                                         </ul>
                                     </li>
-                                    <li id="contact"><a href="Contact.aspx">Contact</a></li>
+                                    <li id="contact"><a href="Contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -124,11 +122,11 @@
                     <div class="container">
                         <div class="row-fluid ff">
                             <!-- widget -->
-                            <div class="col-md-3">
+                            <div class="span3">
 
                                 <div id="text-2" class="widget widget_text">
                                     <div class="textwidget">
-                                        <img src="content/img/ar-logo-full-w.png" height="33px !important" />
+                                        <img src="content/images/ar-logo-full-w.png" height="33px !important" />
                                         <br />
                                         <br />
                                         Proin iaculis purus consequat sem cursus digni ssim. Donec porttitor entume suscipit..Nsequat sem cursus digni ssim. Donec porttitor entume suscipit
@@ -143,7 +141,7 @@
                                     </form>
                                 </div>--%>
                             </div>
-                            <div class="col-md-3">
+                            <div class="span3">
                                 <div id="recent-posts-2" class="widget widget_recent_entries">
                                     <h6 class="widget-title"><span>Recent Posts</span></h6>
                                     <ul>
@@ -165,7 +163,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="span3">
 
                                 <div id="widget_contact_info-2" class="widget widget_contact_info">
                                     <h6 class="widget-title"><span>Contact Info</span></h6>
@@ -179,7 +177,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="span3">
 
                                 <div id="widget_flickr-2" class="widget widget_flickr">
                                     <h6 class="widget-title"><span>Recent Works</span></h6>
@@ -195,7 +193,7 @@
                 <div id="copyright">
                     <div class="container">
                         <div class="row-fluid">
-                            <div class="col-md-12">
+                            <div class="span12">
                                 Copyright 2014. All Right Reserved  / ARTechnic Software Solutions                       
                                 <div class="pull-right">
                                     <ul class="footer_social_icons">
