@@ -6,18 +6,18 @@
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <div class="header_page">
         <div class="container">
-            <div class="row-fluid">
+            
                 <div class="col-md-6">
-                    <h4>Pricing Tables</h4>
+                    <h4 class="pull-left">Pricing Tables</h4>
                 </div>
-                <div class="breadcrumbss">
+                <div class="col-md-6 breadcrumbss">
                     <ul class="page_parents pull-right">
                         <li>You are here: </li>
                         <li><a href="index.html">Home</a>/</li>
                         <li><a href="index817c817c.html?page_id=412">Pricing Tables</a></li>
                     </ul>
                 </div>
-            </div>
+           
         </div>
     </div>
     <div id="body">

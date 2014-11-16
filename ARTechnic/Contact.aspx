@@ -19,25 +19,25 @@
                                 <div class="col-md-8 contact_form">
                                     <div class="header">
                                         <dl class="dl-horizontal">
-                                            <dt><i class="moon-pen-5"></i></dt>
+                                            <dt><i class="glyphicon glyphicon-pencil"></i></dt>
                                             <dd style="margin-left: 55px !important; margin-top: 10px;">
                                                 <h4>Write Now</h4>
                                             </dd>
                                         </dl>
                                     </div>
                                     <div class="row-fluid">
-                                        <div class="row-fluid">
+                                        
                                             <div class="col-md-12">
-                                                <asp:TextBox runat="server" CssClass="col-md-6" ID="formName" placeholder="Name" ClientIDMode="Static"></asp:TextBox>
-                                                <asp:TextBox runat="server" CssClass="col-md-6" ID="formEmail" ClientIDMode="Static" placeholder="E-Mail" />
-                                                <asp:TextBox runat="server" CssClass="col-md-6" ID="formSubject" ClientIDMode="Static" placeholder="Subject" />
-                                                <asp:TextBox runat="server" CssClass="col-md-12" ID="formContent" ClientIDMode="Static" placeholder="Content" cols="40" Rows="7" TextMode="MultiLine" />
+                                                <asp:TextBox runat="server" CssClass="form-control" ID="formName" placeholder="Name" ClientIDMode="Static"></asp:TextBox>
+                                                <asp:TextBox runat="server" CssClass="form-control" ID="formEmail" ClientIDMode="Static" placeholder="E-Mail" />
+                                                <asp:TextBox runat="server" CssClass="form-control" ID="formSubject" ClientIDMode="Static" placeholder="Subject" />
+                                                <asp:TextBox runat="server" CssClass="form-control" ID="formContent" ClientIDMode="Static" placeholder="Content" cols="40" Rows="7" TextMode="MultiLine" />
                                                 <p class="perspective">
                                                     <asp:Button ID="btnSendmail" Text="Send Message" OnClick="btnSendmail_Click" CssClass="custom_btn" runat="server" />
                                                 </p>
                                                 <div id="ajaxresponse"></div>
                                             </div>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                                 <div class="col-md-4 post_page_cont">
