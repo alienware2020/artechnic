@@ -193,6 +193,7 @@
     <Content Include="Content\js\bootstrap.min68b3.js" />
     <Content Include="Content\js\customSelect.jquery.min68b3.js" />
     <Content Include="Content\js\isotope68b3.js" />
+    <Content Include="Content\js\jquery-migrate.min.js" />
     <Content Include="Content\js\jquery-migrate.min1576.js" />
     <Content Include="Content\js\jquery.appear-1.1.1.modified.js" />
     <Content Include="Content\js\jquery.appear-1.1.1.modified68b3.js" />
@@ -207,6 +208,7 @@
     <Content Include="Content\js\jquery.flexslider-min68b3.js" />
     <Content Include="Content\js\jquery.hoverex68b3.js" />
     <Content Include="Content\js\jquery.imagesloaded.min68b3.js" />
+    <Content Include="Content\js\jquery.js" />
     <Content Include="Content\js\jquery.livequery68b3.js" />
     <Content Include="Content\js\jquery.mobilemenu68b3.js" />
     <Content Include="Content\js\jquery.placeholder.min68b3.js" />
@@ -268,6 +270,17 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\portfolio\pf-1.png" />
+    <Content Include="Images\portfolio\pf-10.png" />
+    <Content Include="Images\portfolio\pf-11.png" />
+    <Content Include="Images\portfolio\pf-2.png" />
+    <Content Include="Images\portfolio\pf-3.png" />
+    <Content Include="Images\portfolio\pf-4.png" />
+    <Content Include="Images\portfolio\pf-5.png" />
+    <Content Include="Images\portfolio\pf-6.png" />
+    <Content Include="Images\portfolio\pf-7.png" />
+    <Content Include="Images\portfolio\pf-8.png" />
+    <Content Include="Images\portfolio\pf-9.png" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
@@ -390,7 +403,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />
