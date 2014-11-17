@@ -7073,3 +7073,12 @@
   .page-id-542  .media iframe{height:500px !important;}
   nav .menu li ul li ul{display:none !important;}
   nav .menu li ul li:hover ul{display: block !important;left: 185px;top: -1px;}
+  .row-fluid p.wide
+  {
+      font-size: 13px;
+font-weight: 400;
+/*background-color: #ffffff;*/
+padding: 30px;
+line-height: 25px;
+margin-top: 60px;
+  }
