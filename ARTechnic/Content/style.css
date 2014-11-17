@@ -7082,3 +7082,8 @@ padding: 30px;
 line-height: 25px;
 margin-top: 60px;
   }
+  .header h4
+  {
+      text-transform: uppercase !important;
+
+  }

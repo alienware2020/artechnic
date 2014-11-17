@@ -48,10 +48,9 @@
                                     </div>
                                     <p class="wide">
                                         <span class="dropcast square" style="background: #289dcc; color: #fff!important">W</span>e are a web designing company based in Mumbai with a strict motto to provide only the best available web based solutions in the market.
-                       We offer amazing websites for your business at amazing prices and with flexible payment options. 
+                       We offer amazing websites for your business at amazing prices. 
                       Our vast Experience in the Web Designing industry gives you an advantage over your competitors. 
                       We make sure that our customer's website are built using the latest technology, cutiing-edge design and with highest security standards. 
-                      When we bring your business online, we make sure that it stays there by reducing the downtime to minimum.                      
                                     </p>
                                 </div>
 
@@ -65,7 +64,51 @@
                                         </dl>
                                     </div>
                                     <p class="wide">
-                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">W</span>e strongly believe that quality has no compromises, we envision to become the finest and the most passionate IT company globally. As the saying goes – An artist is not paid for his labor but for his vision.                    
+                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">W</span>e strongly believe that quality has no compromises, we envision to become the finest and the most passionate IT company.
+                                        Our moto is to  help businesses, organizations and entrepreneurs achieve brand objectives through futuristic feature-rich websites. 
+                                        Every day, we work collectively to realize our dream of becoming the global leader in web design & development.
+                                        As the saying goes – An artist is not paid for his labor but for his vision.                    
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-fluid row-dynamic-el " style="">
+                        <div class="container">
+                            <div class="row-fluid">
+
+                                <div class="span6 post_page_cont">
+                                    <div class="header">
+                                        <dl class="dl-horizontal">
+                                            <dt><i class="moon-tag-2"></i></dt>
+                                            <dd style="margin-left: 55px !important; margin-top: 10px;">
+                                                <h4>Business Practices</h4>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <p class="wide">
+                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">A</span>RTech Software Solutions follows best development practices and 
+                                        scientific methods to evolve technologically superior websites. 
+                                        Our every work, be it a simple logo, creative flash animation or complicated ecommerce website, 
+                                        is the result of extensive research and proven development processes. 
+                                    </p>
+                                </div>
+
+                                <div class="span6 block_skill">
+                                    <div class="header">
+                                        <dl class="dl-horizontal">
+                                            <dt><i class="moon-bars"></i></dt>
+                                            <dd style="margin-left: 55px !important; margin-top: 10px;">
+                                                <h4>Work Culture</h4>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <p class="wide">
+                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">A</span>t ARTech Software Solutions, we follow a work culture where everyone 
+                                        is open to new ideas and thoughts. We trust brainstorming sessions, proven methodologies, 
+                                        and team effort to deliver the best for every global project we manage. While we respect experience, ability is what we worship.
                                     </p>
                                 </div>
 
