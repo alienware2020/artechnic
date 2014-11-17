@@ -44,6 +44,7 @@
                                                             <li>5 Pages</li>
                                                             <li>Live support</li>
                                                             <li>Free 1 year maintenance</li>
+                                                            <li><input type="checkbox"/>Responsive Design</li>
                                                         </ul>
                                                         <div class="footer">
                                                             <p class="perspective">

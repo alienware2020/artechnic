@@ -769,11 +769,11 @@
 
   .page_parents li:first-child{padding-right:10px;}
 
-  .page_parents li{float:left; padding-left: 0px; color:#444; padding-left:4px; font-weight:500; padding-right:4px; font-size:13px;}
+  .page_parents li{float:left; padding-left: 0px; color:#444; padding-left:4px; font-weight:normal; padding-right:4px; font-size:13px;}
 
   .page_parents li:first-child{background:none}
 
-  .page_parents li a{color:#444; font-size:13px; font-weight:500; margin-right:6px}
+  .page_parents li a{color:#444; font-size:13px; font-weight:normal; margin-right:6px}
 
   .page_parents li a:hover{text-decoration:none;}
 

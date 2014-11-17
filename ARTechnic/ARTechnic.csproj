@@ -75,12 +75,21 @@
   <ItemGroup>
     <Content Include="about.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Content\css\background.html" />
+    <Content Include="Content\css\bigplay.html" />
     <Content Include="Content\css\bootstrap-responsive.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\eldo.css" />
     <Content Include="Content\css\flexslider.css" />
     <Content Include="Content\css\hoverex-all.css" />
+    <Content Include="Content\css\img\controls.png" />
+    <Content Include="Content\css\img\cross.png" />
+    <Content Include="Content\css\img\line-divider.png" />
+    <Content Include="Content\css\img\tick.png" />
     <Content Include="Content\css\jquery.easy-pie-chart.css" />
+    <Content Include="Content\css\loading.html" />
+    <Content Include="Content\css\mediaelementplayer.css" />
+    <Content Include="Content\css\nav.html" />
     <Content Include="Content\css\vector-icons.css" />
     <Content Include="Content\desaturate.html" />
     <Content Include="Content\fancybox\source\blank.gif" />
