@@ -1,64 +1,12 @@
-jQuery(function($) {
+$(function($) {
 		"use strict";
-		$('[rel=tooltip]').tooltip();
+		//$('[rel=tooltip]').tooltip();
               //$('input, textarea').placeholder();
         $('#mc_mv_EMAIL').attr('placeholder', 'Type your email address');
 		if($('#testimonials').length){
 			$('#testimonials').cycle();
         }
 		
-		var currentPath = $(location).attr("pathname").toLowerCase();
-		var currentPage = currentPath.split("/")[currentPath.split("/").length - 1];
-		var currentLink;
-		switch (currentPage) {
-		    case "default":
-		        currentLink = "home";
-		        break;
-		    case "default.aspx":
-		        currentLink = "home";
-		        break;
-		    case "services":
-		        currentLink = "services";
-		        break;
-		    case "services.aspx":
-		        currentLink = "services";
-		        break;
-		    case "pricing":
-		        currentLink = "pricing";
-		        break;
-		    case "pricing.aspx":
-		        currentLink = "pricing";
-		        break;
-		    case "portfolio":
-		        currentLink = "portfolio";
-		        break;
-		    case "portfolio.aspx":
-		        currentLink = "portfolio";
-		        break;
-		    case "contact":
-		        currentLink = "contact";
-		        break;
-		    case "contact.aspx":
-		        currentLink = "contact";
-		        break;
-		    case "team":
-		        currentLink = "about";
-		        break;
-		    case "team.aspx":
-		        currentLink = "about";
-		        break;
-		    case "whyus":
-		        currentLink = "about";
-		        break;
-		    case "whyus.aspx":
-		        currentLink = "about";
-		        break;
-		    default:
-		        currentLink = "home";
-		}
-		$("#navigation li").removeClass("current-menu-item").removeClass("current_page_item");
-		$("#navigation").find("#" + currentLink).addClass("current-menu-item").addClass("current_page_item");
-
 		$('.one-staff').hover(function(){
 			$(this).parent().parent().find('.one-staff').not($(this)).find('img').stop().css('opacity', '0.6');	 
 	
@@ -183,7 +131,22 @@ jQuery(function($) {
 	    });
 
 	 
-          
+
+
+		$(".lightbox-gallery").fancybox({
+		    openEffect: 'none',
+		    closeEffect: 'none',
+		    helpers: {
+		        media: {}
+		    }
+		});
+		$('.lightbox-media').fancybox({
+		    openEffect: 'none',
+		    closeEffect: 'none',
+		    helpers: {
+		        media: {}
+		    }
+		});
 	
 
 
@@ -266,7 +229,7 @@ jQuery(function($) {
 	});
 	
 
-    $("audio,video").mediaelementplayer();               
+    //$("audio,video").mediaelementplayer();               
 
 
 
@@ -306,26 +269,7 @@ jQuery(function($) {
 
     /* End Great Gallery */
 
-
-    $(".lightbox-gallery").fancybox({
-        openEffect: 'none',
-        closeEffect: 'none',
-        helpers: {
-            media: {}
-        }
-    });
-	$('.lightbox-media').fancybox({
-		openEffect  : 'none',
-		closeEffect : 'none',
-		helpers : {
-			media : {}
-		}
-	});
-	
-	
-
     
-	
 	$("#tweet_footer").each(function(){
 		var $self = $(this);
 			$self.carouFredSel( 
@@ -353,8 +297,6 @@ jQuery(function($) {
           
 		});
 
-
-	
 
 	$(".carousel_staff").each(function(){
 		var $self = $(this);
