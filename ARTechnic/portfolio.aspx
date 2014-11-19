@@ -49,8 +49,7 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf1.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf1.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Chaichai</a></h6>
                                         </div>
                                     </div>
@@ -63,8 +62,6 @@
 
                         </div>
 
-
-
                         <div class="portfolio-item corp  v1" data-id="125">
                             <div class="he-wrap tpl2">
                                 <img src="Images/portfolio/pf-2.png" alt="">
@@ -73,8 +70,7 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf2.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf2.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Girnar</a></h6>
                                         </div>
                                     </div>
@@ -87,8 +83,6 @@
 
                         </div>
 
-
-
                         <div class="portfolio-item e-com v1" data-id="123">
                             <div class="he-wrap tpl2">
                                 <img src="Images/portfolio/pf-3.png" alt="">
@@ -97,8 +91,8 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf3.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                             
+                                            <a href="Images/portfolio/pf3.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">IPFKart</a></h6>
                                         </div>
                                     </div>
@@ -117,8 +111,8 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf4.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                             
+                                            <a href="Images/portfolio/pf4.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Kandyvalley</a></h6>
                                         </div>
                                     </div>
@@ -138,8 +132,8 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf5.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                             
+                                            <a href="Images/portfolio/pf5.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Save Lives</a></h6>
                                         </div>
                                     </div>
@@ -158,8 +152,8 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf6.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                             
+                                            <a href="Images/portfolio/pf6.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Ganko Optician</a></h6>
                                         </div>
                                     </div>
@@ -182,8 +176,8 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf7.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                             
+                                            <a href="Images/portfolio/pf7.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">RichwellPlaza</a></h6>
                                         </div>
                                     </div>
@@ -206,8 +200,8 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf8.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                             
+                                            <a href="Images/portfolio/pf8.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">RichwellIT</a></h6>
                                         </div>
                                     </div>
@@ -230,8 +224,8 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf9.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                             
+                                            <a href="Images/portfolio/pf9.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Hunter Douglas</a></h6>
                                         </div>
                                     </div>
@@ -254,8 +248,8 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf10.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                             
+                                            <a href="Images/portfolio/pf10.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Group Buyer</a></h6>
                                         </div>
                                     </div>
@@ -278,8 +272,8 @@
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="#" class="link a0" data-animate="elasticInDown"><i class="moon-link"></i></a>
-                                            <a href="Images/portfolio/pf11.png" class="lightbox a1 lightbox-gallery" data-animate="elasticInDown"><i class="moon-search-2"></i></a>
+                                             
+                                            <a href="Images/portfolio/pf11.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Confusion</a></h6>
                                         </div>
                                     </div>
@@ -287,6 +281,28 @@
                             </div>
                             <div class="project">
                                 <h6><a href="#">Confusion</a></h6>
+                                <span class="desc">ERP</span>
+                            </div>
+
+                        </div>
+
+                        <div class="portfolio-item erp v1" data-id="42">
+                            <div class="he-wrap tpl2">
+                                <img src="Images/portfolio/pf12.png" alt="">
+                                <div class="overlay he-view">
+
+                                    <div class="bg a0" data-animate="fadeIn">
+                                        <div class="center-bar v2">
+
+                                             
+                                            <a href="Images/portfolio/pf12.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <h6><a href="#">Content Management System</a></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project">
+                                <h6><a href="#">Content Management System</a></h6>
                                 <span class="desc">ERP</span>
                             </div>
 
