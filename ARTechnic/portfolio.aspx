@@ -43,13 +43,13 @@
 
                         <div class="portfolio-item e-com v1" data-id="127">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-1.png" alt="">
+                                <img src="Images/portfolio/pf-1.jpg" alt="">
                                 <div class="shape4"></div>
                                 <div class="overlay he-view">
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="Images/portfolio/pf1.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-1.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Chaichai</a></h6>
                                         </div>
                                     </div>
@@ -64,13 +64,13 @@
 
                         <div class="portfolio-item corp  v1" data-id="125">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-2.png" alt="">
+                                <img src="Images/portfolio/pf-2.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
-                                            <a href="Images/portfolio/pf2.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-2.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Girnar</a></h6>
                                         </div>
                                     </div>
@@ -85,14 +85,14 @@
 
                         <div class="portfolio-item e-com v1" data-id="123">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-3.png" alt="">
+                                <img src="Images/portfolio/pf-3.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
                                              
-                                            <a href="Images/portfolio/pf3.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-3.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">IPFKart</a></h6>
                                         </div>
                                     </div>
@@ -105,35 +105,35 @@
                         </div>
                         <div class="portfolio-item so-net v1" data-id="121">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-4.png" alt="">
+                                <img src="Images/portfolio/pf-4.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
                                              
-                                            <a href="Images/portfolio/pf4.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-4.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Kandyvalley</a></h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="project">
-                                <h6><a href="indexd412d412.html?portfolio=single-portfolio-10">Kandyvalley</a></h6>
+                                <h6><a href="#">Kandyvalley</a></h6>
                                 <span class="desc">Social Network </span>
                             </div>
 
                         </div>
                         <div class="portfolio-item business v1" data-id="119">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-5.png" alt="">
+                                <img src="Images/portfolio/pf-5.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
                                              
-                                            <a href="Images/portfolio/pf5.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-5.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Save Lives</a></h6>
                                         </div>
                                     </div>
@@ -146,14 +146,14 @@
                         </div>
                         <div class="portfolio-item e-com v1" data-id="117">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-6.png" alt="">
+                                <img src="Images/portfolio/pf-6.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
                                              
-                                            <a href="Images/portfolio/pf6.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-6.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Ganko Optician</a></h6>
                                         </div>
                                     </div>
@@ -170,14 +170,14 @@
 
                         <div class="portfolio-item business v1" data-id="115">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-7.png" alt="">
+                                <img src="Images/portfolio/pf-7.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
                                              
-                                            <a href="Images/portfolio/pf7.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-7.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">RichwellPlaza</a></h6>
                                         </div>
                                     </div>
@@ -194,14 +194,14 @@
 
                         <div class="portfolio-item corp v1" data-id="113">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-8.png" alt="">
+                                <img src="Images/portfolio/pf-8.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
                                              
-                                            <a href="Images/portfolio/pf8.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-8.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">RichwellIT</a></h6>
                                         </div>
                                     </div>
@@ -218,14 +218,14 @@
 
                         <div class="portfolio-item business v1" data-id="44">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-9.png" alt="">
+                                <img src="Images/portfolio/pf-9.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
                                              
-                                            <a href="Images/portfolio/pf9.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-9.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Hunter Douglas</a></h6>
                                         </div>
                                     </div>
@@ -242,14 +242,14 @@
 
                         <div class="portfolio-item e-com v1" data-id="43">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-10.png" alt="">
+                                <img src="Images/portfolio/pf-10.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
                                              
-                                            <a href="Images/portfolio/pf10.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-10.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Group Buyer</a></h6>
                                         </div>
                                     </div>
@@ -266,14 +266,14 @@
 
                         <div class="portfolio-item erp v1" data-id="42">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf-11.png" alt="">
+                                <img src="Images/portfolio/pf-11.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
                                              
-                                            <a href="Images/portfolio/pf11.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-11.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Confusion</a></h6>
                                         </div>
                                     </div>
@@ -288,14 +288,14 @@
 
                         <div class="portfolio-item erp v1" data-id="42">
                             <div class="he-wrap tpl2">
-                                <img src="Images/portfolio/pf12.png" alt="">
+                                <img src="Images/portfolio/pf-12.jpg" alt="">
                                 <div class="overlay he-view">
 
                                     <div class="bg a0" data-animate="fadeIn">
                                         <div class="center-bar v2">
 
                                              
-                                            <a href="Images/portfolio/pf12.png" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
+                                            <a href="Images/portfolio/pf-12.jpg" class="lightbox a1 lightbox-gallery" data-animate="zoomIn"><i class="moon-search-2"></i></a>
                                             <h6><a href="#">Content Management System</a></h6>
                                         </div>
                                     </div>
