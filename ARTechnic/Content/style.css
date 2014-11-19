@@ -7015,7 +7015,7 @@
 
    body{background: #fbfbfb !important}
 
-    input,button,select,textarea,body,span, aside .widget_twitter li, aside ul li a{font-family: Roboto; font-size: 12px; color:#999999 }
+    input,button,select,textarea,body,span, aside .widget_twitter li, aside ul li a{font-family: Roboto; font-size: 12px;color: #999999;text-decoration: none; }
 
     h1,h2,h3,h4,h5,h6, .flex-caption, nav .menu li a,#portfolio-filter ul li a,#faq-filter ul li a, .blog-article dl .blog-content .readmore, .row-dynamic-el .header .header_link, .accordion .accordion-heading a, .single_testimonial span.title, .recent_news .news-article.style_2 dt span, .one-staff .content span, .btn-system span,#respond input[type="submit"], .row-google-map .desc, .side-nav li a, .price_box, .standard-form .more-large, .comment span.author {font-family: Roboto}
     
@@ -7035,7 +7035,7 @@
 
     h6{font-size: 15px}
 
-    nav .menu li.current-menu-item a, nav .menu li.current-menu-item a:hover, nav .menu li.current-menu-parent a, nav .menu li.current-menu-parent a:hover, .step h2, #portfolio-filter ul li.active a, #faq-filter ul li.active a{color:#009dcd; }
+    nav .menu li.current-menu-item a, nav .menu li.current-menu-item a:hover, nav .menu li.current-menu-parent a, nav .menu li.current-menu-parent a:hover, .step h2, #portfolio-filter ul li.active a, #faq-filter ul li.active a{color:#009dcd;text-decoration: none; }
     nav .menu > li.current-menu-item ,nav .menu > li.current-menu-item:hover, nav .menu > li.current-menu-parent {border-top:4px solid #009dcd !important;}
     nav .menu li a{color:#68676a;}
     .top_nav{color: #b0b0b0;} 
@@ -7045,7 +7045,7 @@
    
      nav li li.current-menu-item a{color:#009dcd !important}
     
-    .services_small dt span.circle:hover, .header dt:hover, .services_steps .first_desc, .news-article a.read_m:hover .direct_btn, .recent_news .news-article.style_2 dt .dt, .row-fluid .pagination a:hover, .blog-article dt .dt, .tpl2 .center-bar a.link, .tpl2 .center-bar a.lightbox, .textbar .text-icon:hover, .btn-system.all_, .services_creative .icon_wrapper, .skill .prog, .accordion .accordion-heading.in_head:before, #respond input[type="submit"], .contact_form  .custom_btn, .slider_bg_cl, .contact_form  .custom_btn{background:#009dcd;}
+    .services_small dt span.circle:hover, .header dt:hover, .services_steps .first_desc, .news-article a.read_m:hover .direct_btn, .recent_news .news-article.style_2 dt .dt, .row-fluid .pagination a:hover, .blog-article dt .dt, .tpl2 .center-bar a.link, .tpl2 .center-bar a.lightbox, .textbar .text-icon:hover, .btn-system.all_, .services_creative .icon_wrapper, .skill .prog, .accordion .accordion-heading.in_head:before, #respond input[type="submit"], .contact_form  .custom_btn, .slider_bg_cl, .contact_form  .custom_btn{background:#009dcd;text-decoration: none;}
     a:hover, .services_small dt span.no_circle i, .services_small a.read_m:hover span, .services_group .span9 dl i, .services_medium h3:hover a, .news-article a.read_m:hover span, .blog-article .info ul li, .one-staff .content span:hover, .one-staff .info span:hover, .single_testimonial .stars i.colored, .testimonials_block .position, .block_skill .big_percentage, .nav-tabs li.active a, .accordion .accordion-heading.in_head a, .page_parents li.active a, .blog-article .info a span, .single-post .shares .social_ic:hover i, .comment dl dd ul li a:hover, .services_small a.read_m:hover .direct_btn i, aside .widget_most_popular dl a:hover{color:#009dcd;}
     a.read_m:hover{color:#009dcd !important;}
      .services_medium .icon_wrapper:hover{border:5px solid #009dcd;}

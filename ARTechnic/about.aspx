@@ -28,6 +28,7 @@
                     <div class="row-fluid row-dynamic-el ">
                         <div class="container">
                             <div class="row-fluid themeple_sc">
+                                <div style="position: absolute; margin-right: 10px; font-size: 80px; margin-top: 25px; color: #ccc">"</div>
                                 <div class="themeple_blockquote">Driven by high moral values and ethics, ARTechnic Software Solutions is a web development company which nurtures your website.</div>
                             </div>
                         </div>
@@ -132,15 +133,18 @@
                                 </div>
                                 <p>We follow three basic but most important steps that keep us ahead of others.</p>
                             </div>
-                            <div class="step"><i class="moon-bars"></i>
+                            <div class="step">
+                                <i class="moon-bars"></i>
                                 <h2>Conception &amp; Analysis</h2>
                                 <p>We thoroughly analyse the requirement of our client and provide them with a conceptual plan.</p>
                             </div>
-                            <div class="step"><i class="moon-brush"></i>
+                            <div class="step">
+                                <i class="moon-brush"></i>
                                 <h2>Design &amp; Implement</h2>
                                 <p>Our dev team creates the design and implement it in a way that best suits our client requirements.</p>
                             </div>
-                            <div class="step"><i class="moon-user"></i>
+                            <div class="step">
+                                <i class="moon-user"></i>
                                 <h2>Support &amp; Updates</h2>
                                 <p>Our fanatical support helps our client in the long run. Support is being there and assisting where we can</p>
                             </div>
@@ -151,7 +155,7 @@
                 </div>
 
             </div>
-           
+
         </section>
     </div>
 </asp:Content>

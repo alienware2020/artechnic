@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Join Us" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="whyus.aspx.cs" Inherits="ARTechnic.whyus" %>
+﻿<%@ Page Title="Why Us" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="whyus.aspx.cs" Inherits="ARTechnic.whyus" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
@@ -28,11 +28,12 @@
                     <div class="row-fluid row-dynamic-el " style="">
                         <div class="container">
                             <div class="row-fluid themeple_sc">
+                                <div style="position: absolute; margin-right: 10px; font-size: 80px; margin-top: 25px;color: #ccc">"</div>
                                 <div class="themeple_blockquote">You have options, but we believe working with us will help you be tension free</div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="row-fluid row-dynamic-el " style="">
                         <div class="container">
                             <div class="row-fluid">
@@ -42,15 +43,13 @@
                                         <dl class="dl-horizontal">
                                             <dt><i class="moon-tag-2"></i></dt>
                                             <dd style="margin-left: 55px !important; margin-top: 10px;">
-                                                <h4>Who We Are</h4>
+                                                <h4>Quality Control</h4>
                                             </dd>
                                         </dl>
                                     </div>
                                     <p class="wide">
-                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">W</span>e are a web designing company based in Mumbai with a strict motto to provide only the best available web based solutions in the market.
-                       We offer amazing websites for your business at amazing prices. 
-                      Our vast Experience in the Web Designing industry gives you an advantage over your competitors. 
-                      We make sure that our customer's website are built using the latest technology, cutiing-edge design and with highest security standards. 
+                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">F</span>or every project we deliver the QA team has set guidelines 
+                                        to deliver them to the current market standards, having all as a checklist its ensured that the delivery is full proof and any issues (if any) are ironed out. 
                                     </p>
                                 </div>
 
@@ -59,15 +58,52 @@
                                         <dl class="dl-horizontal">
                                             <dt><i class="moon-bars-4"></i></dt>
                                             <dd style="margin-left: 55px !important; margin-top: 10px;">
-                                                <h4>Our Vision</h4>
+                                                <h4>Clarity</h4>
                                             </dd>
                                         </dl>
                                     </div>
                                     <p class="wide">
-                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">W</span>e strongly believe that quality has no compromises, we envision to become the finest and the most passionate IT company.
-                                        Our moto is to  help businesses, organizations and entrepreneurs achieve brand objectives through futuristic feature-rich websites. 
-                                        Every day, we work collectively to realize our dream of becoming the global leader in web design & development.
-                                        As the saying goes – An artist is not paid for his labor but for his vision.                    
+                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">W</span>e focus on what we are good at, not trying to be jack of
+                                         all trades we try to concentrate on solutions we can deliver. Clarity is the first thing you will notice about us.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-fluid row-dynamic-el " style="">
+                        <div class="container">
+                            <div class="row-fluid">
+
+                                <div class="span6 post_page_cont">
+                                    <div class="header">
+                                        <dl class="dl-horizontal">
+                                            <dt><i class="moon-tag-2"></i></dt>
+                                            <dd style="margin-left: 55px !important; margin-top: 10px;">
+                                                <h4>Partner, not provider</h4>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <p class="wide">
+                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">T</span>hink of us as partners, where we take care of 
+                                        all your technical needs, in return we get a share of what you make. Obviously, we work on project basis too but there too we love contributing to your growth.
+                                    </p>
+                                </div>
+
+                                <div class="span6 block_skill">
+                                    <div class="header">
+                                        <dl class="dl-horizontal">
+                                            <dt><i class="moon-bars-4"></i></dt>
+                                            <dd style="margin-left: 55px !important; margin-top: 10px;">
+                                                <h4>Technology Adopters</h4>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <p class="wide">
+                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">T</span>alk of any new technologies, 
+                                        you think we can help you out with, we would be more than inclined to assist you in that. We ourself keep in the loop of 
+                                        what’s going around so that we are never behind then the world.
                                     </p>
                                 </div>
 
@@ -84,15 +120,13 @@
                                         <dl class="dl-horizontal">
                                             <dt><i class="moon-network"></i></dt>
                                             <dd style="margin-left: 55px !important; margin-top: 10px;">
-                                                <h4>Business Practices</h4>
+                                                <h4>Honest Advice</h4>
                                             </dd>
                                         </dl>
                                     </div>
                                     <p class="wide">
-                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">A</span>RTech Software Solutions follows best development practices and 
-                                        scientific methods to evolve technologically superior websites. 
-                                        Our every work, be it a simple logo, creative flash animation or complicated ecommerce website, 
-                                        is the result of extensive research and proven development processes. 
+                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">W</span>e will always be plain and upfront, test us out. 
+                                        If we are not into a certain technology or domain we will be upfront and won’t have any kind of shame putting it in front of you.
                                     </p>
                                 </div>
 
@@ -101,14 +135,12 @@
                                         <dl class="dl-horizontal">
                                             <dt><i class="moon-bars-2"></i></dt>
                                             <dd style="margin-left: 55px !important; margin-top: 10px;">
-                                                <h4>Work Culture</h4>
+                                                <h4>Flexibility</h4>
                                             </dd>
                                         </dl>
                                     </div>
                                     <p class="wide">
-                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">A</span>t ARTech Software Solutions, we follow a work culture where everyone 
-                                        is open to new ideas and thoughts. We trust brainstorming sessions, proven methodologies, 
-                                        and team effort to deliver the best for every global project we manage. While we respect experience, ability is what we worship.
+                                        <span class="dropcast square" style="background: #289dcc; color: #fff!important">F</span>lexibility and Adaptability is important, for every business and we know we have to deliver, so we have to be flexible too. Our resources are groomed for it from day one.
                                     </p>
                                 </div>
 

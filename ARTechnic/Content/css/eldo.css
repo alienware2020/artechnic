@@ -499,7 +499,7 @@ border-radius: 3px;
 
 .themeple_sc .social_icons li.Youtube span{background: url('../img/youtube.png') center no-repeat;}
 */
-.themeple_sc .themeple_blockquote{padding:0px 20px;font-size: 17px; float:left; line-height:27px; color:#a7a7a7; border-left:2px solid;font-weight: 100;font-style: oblique;}
+.themeple_sc .themeple_blockquote{padding:0px 20px;font-size: 17px; float:left; line-height:27px; color:#a7a7a7; border-left:2px solid;font-weight: 100;font-style: oblique;margin-left: 40px;}
 .themeple_sc .themeple_blockquote p {padding:0px;}
 .themeple_sc .themeple_blockquote span{color:#999; font-size: 14px; font-weight:400;}
 
