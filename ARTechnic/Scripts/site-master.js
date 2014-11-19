@@ -33,6 +33,12 @@
     case "contact.aspx":
         currentLink = "contact";
         break;
+    case "about":
+        currentLink = "about";
+        break;
+    case "about.aspx":
+        currentLink = "about";
+        break;
     case "team":
         currentLink = "about";
         break;

@@ -57,7 +57,7 @@
                                 <div class="span6 block_skill">
                                     <div class="header">
                                         <dl class="dl-horizontal">
-                                            <dt><i class="moon-bars"></i></dt>
+                                            <dt><i class="moon-bars-4"></i></dt>
                                             <dd style="margin-left: 55px !important; margin-top: 10px;">
                                                 <h4>Our Vision</h4>
                                             </dd>
@@ -82,7 +82,7 @@
                                 <div class="span6 post_page_cont">
                                     <div class="header">
                                         <dl class="dl-horizontal">
-                                            <dt><i class="moon-tag-2"></i></dt>
+                                            <dt><i class="moon-network"></i></dt>
                                             <dd style="margin-left: 55px !important; margin-top: 10px;">
                                                 <h4>Business Practices</h4>
                                             </dd>
@@ -99,7 +99,7 @@
                                 <div class="span6 block_skill">
                                     <div class="header">
                                         <dl class="dl-horizontal">
-                                            <dt><i class="moon-bars"></i></dt>
+                                            <dt><i class="moon-bars-2"></i></dt>
                                             <dd style="margin-left: 55px !important; margin-top: 10px;">
                                                 <h4>Work Culture</h4>
                                             </dd>

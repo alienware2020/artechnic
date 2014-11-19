@@ -2865,7 +2865,10 @@
 
       -ms-transition-duration: 0.4s;
 
-      transition-duration: 0.4s;}
+      transition-duration: 0.4s;
+      padding-top: 3px;
+      padding-left: 1px;
+  }
 
   .header dt:hover i{color:#fff}
 

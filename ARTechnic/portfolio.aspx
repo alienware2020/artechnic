@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row-fluid">
                 <div class="span6">
-                    <h4>Pricing Tables</h4>
+                    <h4>Portfolio</h4>
                 </div>
                 <div class="breadcrumbss">
 
