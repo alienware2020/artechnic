@@ -2811,7 +2811,7 @@
 
   /* Dynamic Elements */
 
-  .row-dynamic-el{margin-bottom:70px; float:left;}
+  .row-dynamic-el{margin-bottom:50px; float:left;}
 
   .row-dynamic-el.second_space{margin-bottom:0;}
 
@@ -7079,7 +7079,7 @@
   .row-fluid p.wide
   {
       font-size: 13px;
-font-weight: 300;
+/*font-weight: 300;*/
 /*background-color: #ffffff;*/
 line-height: 25px;
   }

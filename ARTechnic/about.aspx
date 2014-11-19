@@ -25,15 +25,15 @@
         <section id="content" class="page-dynamic_template-home sequentialchildren  ">
             <div class="row-fluid">
                 <div class="span12">
-                    <div class="row-fluid row-dynamic-el " style="">
+                    <div class="row-fluid row-dynamic-el ">
                         <div class="container">
                             <div class="row-fluid themeple_sc">
                                 <div class="themeple_blockquote">Driven by high moral values and ethics, ARTechnic Software Solutions is a web development company which nurtures your website.</div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="row-fluid row-dynamic-el " style="">
+
+                    <div class="row-fluid row-dynamic-el ">
                         <div class="container">
                             <div class="row-fluid">
 
@@ -75,7 +75,7 @@
                         </div>
                     </div>
 
-                    <div class="row-fluid row-dynamic-el " style="">
+                    <div class="row-fluid row-dynamic-el " style="margin-bottom: 50px !important;">
                         <div class="container">
                             <div class="row-fluid">
 
@@ -117,6 +117,41 @@
                     </div>
                 </div>
             </div>
+
+            <div class="row-fluid row-dynamic-el " style="margin-bottom: 50px !important;">
+
+                <div class="container">
+
+                    <div class="row-fluid">
+
+                        <div class="span12 services_steps steps_nr_3">
+                            <div class="first_desc">
+                                <div class="header">
+                                    <h1>OUR</h1>
+                                    <h2>Working process</h2>
+                                </div>
+                                <p>We follow three basic but most important steps that keep us ahead of others.</p>
+                            </div>
+                            <div class="step"><i class="moon-bars"></i>
+                                <h2>Conception &amp; Analysis</h2>
+                                <p>We thoroughly analyse the requirement of our client and provide them with a conceptual plan.</p>
+                            </div>
+                            <div class="step"><i class="moon-brush"></i>
+                                <h2>Design &amp; Implement</h2>
+                                <p>Our dev team creates the design and implement it in a way that best suits our client requirements.</p>
+                            </div>
+                            <div class="step"><i class="moon-user"></i>
+                                <h2>Support &amp; Updates</h2>
+                                <p>Our fanatical support helps our client in the long run. Support is being there and assisting where we can</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+           
         </section>
     </div>
 </asp:Content>
