@@ -55,13 +55,29 @@
                                         <dl class="dl-horizontal">
                                             <dt><i class="moon-file-2"></i></dt>
                                             <dd style="margin-left: 55px !important; margin-top: 10px;">
-                                                <h4>Simple Text</h4>
+                                                <h4>Information</h4>
                                             </dd>
                                         </dl>
                                     </div>
-                                    <p>Maecenas sed justo varius velit imperdiet bibendum. Vivamus nec sapien massa, a imperdiet diam. Aliquam erat volutpat. log in to the forums, and a nunc et rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. Vivamus nec sapien massa, a imperdiet diam. Aliquam erat volutpat. log in to the forums, and a nunc et rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                                    <p>Need help with web design or web development? Please complete the form or come visit us at our office in Mumbai. 
+                                    ARTechnic will help you with all your needs on web design. Our web developers will answer all your question and assist you with all your needs. 
+    </p>
+                                    <br/>
+                                    <div class="header">
+                                        <dl class="dl-horizontal">
+                                            <dt><i class="moon-book-2"></i></dt>
+                                            <dd style="margin-left: 55px !important; margin-top: 10px;">
+                                                <h4>General Inquiries</h4>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <%--<h4 class="shortcode_h">General Enquiries</h4>--%>
+                                    <p>B-102, Oakwood Society<br/>
+Viman Nagar, Pune, 411013<br/>
++91 7709407971<br/>
+                                   +91 9405889360<br/>
+contact@artechnic.in<br/>
+artechnic.in</p>
                                 </div>
 
                             </div>
