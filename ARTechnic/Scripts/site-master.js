@@ -78,4 +78,25 @@
             $("#staticPremiumPrice").text("18,000");
         }
     });
+
+    $("#formName").keypress(function() {
+
+    });
+
+    $("#linkWebsiteDevelopment").click(function() {
+        $("#servicesMainContent").find(".services_content").css("display", "none");
+        $("#webDevelopment").css("display", "block");
+    });
+    $("#linkMobileDevelopment").click(function () {
+        $("#servicesMainContent").find(".services_content").css("display", "none");
+        $("#mobileDevelopment").css("display", "block");
+    });
+    $("#linkSoftwareDevelopment").click(function () {
+        $("#servicesMainContent").find(".services_content").css("display", "none");
+        $("#softwareDevelopment").css("display", "block");
+    });
+    $("#linkECommerce").click(function () {
+        $("#servicesMainContent").find(".services_content").css("display", "none");
+        $("#eCommerce").css("display", "block");
+    });
 });

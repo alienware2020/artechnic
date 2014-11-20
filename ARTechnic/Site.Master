@@ -63,9 +63,9 @@
                                     <li id="services"><a href="services">Services</a>
                                         <ul class="sub-menu">
                                             <li><a href="#">Website Development</a></li>
-                                            <li><a href="#">Custom Web Application</a></li>
-                                            <li><a href="#">E-Commerce Web Design</a></li>
-                                            <li><a href="#">Graphics Design</a></li>
+                                            <li><a href="#">Mobile Web Development</a></li>
+                                            <li><a href="#">Software Development</a></li>
+                                            <li><a href="#">E-Commerce</a></li>
                                         </ul>
                                     </li>
                                     <li id="pricing"><a href="pricing">Pricing</a>

@@ -37,12 +37,12 @@
                                     <div class="row-fluid">
                                         <div class="row-fluid">
                                             <div class="span12 standard-form row-fluid">
-                                                    <asp:TextBox runat="server" CssClass="span6" ID="formName" placeholder="Name" ClientIDMode="Static"></asp:TextBox>
-                                                <asp:TextBox runat="server" CssClass="span6" ID="formEmail" ClientIDMode="Static" placeholder="E-Mail" />
-                                                <asp:TextBox runat="server" CssClass="span6" ID="formSubject" ClientIDMode="Static" placeholder="Subject" />
+                                                    <asp:TextBox runat="server" CssClass="span6" ID="formName" placeholder="Name" ClientIDMode="Static"  required></asp:TextBox>
+                                                <asp:TextBox type="email" runat="server" CssClass="span6" ID="formEmail" ClientIDMode="Static" placeholder="E-Mail" required />
+                                                <asp:TextBox runat="server" CssClass="span6" ID="formSubject" ClientIDMode="Static" placeholder="Subject" required />
                                                 <asp:TextBox runat="server" CssClass="span12" ID="formContent" ClientIDMode="Static" placeholder="Content" cols="40" Rows="7" TextMode="MultiLine" />
                                                 <p class="perspective">
-                                                    <asp:Button ID="btnSendmail" Text="Send Message" OnClick="btnSendmail_Click" CssClass="custom_btn" runat="server" />
+                                                    <asp:Button ID="btnSendmail" Text="Send Message" OnClick="btnSendmail_Click" CssClass="custom_btn" runat="server" ClientIDMode="Static" />
                                                 </p>
                                                 <div id="ajaxresponse"></div>
                                             </div>

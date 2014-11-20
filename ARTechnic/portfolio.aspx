@@ -14,8 +14,8 @@
 
                     <ul class="page_parents pull-right">
                         <li>You are here: </li>
-                        <li><a href="Default.aspx">Home</a>/</li>
-                        <li><a href="pricing.aspx">Pricing Tables</a></li>
+                        <li><a href="Default">Home</a>/</li>
+                        <li>Portfolio</li>
                     </ul>
                 </div>
             </div>

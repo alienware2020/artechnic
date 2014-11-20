@@ -6447,6 +6447,7 @@ span.icon {
     padding-right: 50px;
     border-bottom: 1px solid #e1e1e1;
     padding-left: 20px;
+    cursor: pointer;
 }
 
     .side-nav li.current_page_item {
@@ -6837,13 +6838,13 @@ ul.default_list {
 
 .contact_form input, .contact_form select {
     width: 100% !important;
-    height: 38px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+    height: 38px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
     margin-right: 3%;
-    border-color: #ebebeb;
-    margin-bottom: 23px;
+    border-color: #ebebeb ;
+    margin-bottom: 23px !important;
 }
 
 .contact_form textarea {
@@ -9812,7 +9813,10 @@ footer .widget_search input[type="text"] {
     border-radius: 0px;
     padding-bottom: 6px;
 }
-
+.standard-form input[type="text"]
+{
+    border: 1px solid #efefef;
+}
 #copyright span {
     color: #a0a0a0;
 }
@@ -9877,4 +9881,9 @@ nav .menu li ul li:hover ul {
 
 .header h4 {
     text-transform: uppercase !important;
+}
+span.highlight {
+    color: #009dcd;
+    font-weight: bold;
+    font-size: inherit;
 }
