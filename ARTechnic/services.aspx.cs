@@ -7,11 +7,15 @@ using System.Web.UI.WebControls;
 
 namespace ARTechnic
 {
-    public partial class services : System.Web.UI.Page
+    public partial class services : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                var serviceName = Session["serviceName"];
+                hiddenServiceName.Value = serviceName!=null? serviceName.ToString():"";
+            }
         }
     }
 }

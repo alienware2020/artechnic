@@ -69,5 +69,26 @@ namespace ARTechnic
         {
 
         }
+
+        protected void lnkbtnWebDevelopment_Click(object sender, EventArgs e)
+        {
+            Session["serviceName"] = "webDevelopment";
+            Response.Redirect("services");
+        }
+        protected void lnkbtnMobileDevelopment_Click(object sender, EventArgs e)
+        {
+            Session["serviceName"] = "mobileDevelopment";
+            Response.Redirect("services");
+        }
+        protected void lnkbtnSoftwareDevelopment_Click(object sender, EventArgs e)
+        {
+            Session["serviceName"] = "softwareDevelopment";
+            Response.Redirect("services");
+        }
+        protected void lnkbtnECommerce_Click(object sender, EventArgs e)
+        {
+            Session["serviceName"] = "eCommerce";
+            Response.Redirect("services");
+        }
     }
 }

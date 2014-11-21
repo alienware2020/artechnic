@@ -53,7 +53,7 @@
                     <div class="span12">
                         <div id="logo" class="">
                             <a href='Default.aspx'>
-                                <img alt="img" src="content/images/ar-logo-full.png" /></a><span class="logo_desc"></span>
+                                <img alt="img" src="Content/images/ar-logo-full.png" /></a><span class="logo_desc"></span>
                         </div>
                         <div id="navigation" class="nav_top pull-right  ">
                             <nav>
@@ -62,10 +62,10 @@
                                     </li>
                                     <li id="services"><a href="services">Services</a>
                                         <ul class="sub-menu">
-                                            <li><a href="#">Website Development</a></li>
-                                            <li><a href="#">Mobile Web Development</a></li>
-                                            <li><a href="#">Software Development</a></li>
-                                            <li><a href="#">E-Commerce</a></li>
+                                            <li><asp:LinkButton runat="server" ID="lnkbtnWebDevelopment" OnClick="lnkbtnWebDevelopment_Click">Website Development</asp:LinkButton></li>
+                                            <li><asp:LinkButton runat="server" ID="lnkbtnMobileDevelopment" OnClick="lnkbtnMobileDevelopment_Click">Mobile Web Development</asp:LinkButton></li>
+                                            <li><asp:LinkButton runat="server" ID="lnkbtnSoftwareDevelopment" OnClick="lnkbtnSoftwareDevelopment_Click">Software Development</asp:LinkButton></li>
+                                            <li><asp:LinkButton runat="server" ID="lnkbtnECommerce" OnClick="lnkbtnECommerce_Click">E-Commerce</asp:LinkButton></li>
                                         </ul>
                                     </li>
                                     <li id="pricing"><a href="pricing">Pricing</a>
@@ -126,7 +126,7 @@
 
                                 <div id="text-2" class="widget widget_text">
                                     <div class="textwidget">
-                                        <img src="content/images/ar-logo-full-w.png" height="33px !important" />
+                                        <img src="Content/images/ar-logo-full-w.png" height="33px !important" />
                                         <br />
                                         <br />
                                         Proin iaculis purus consequat sem cursus digni ssim. Donec porttitor entume suscipit..Nsequat sem cursus digni ssim. Donec porttitor entume suscipit

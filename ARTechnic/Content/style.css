@@ -9887,3 +9887,14 @@ span.highlight {
     font-weight: bold;
     font-size: inherit;
 }
+submenu
+{
+    color: #777;
+text-transform: lowercase;
+text-transform: capitalize !important;
+font-weight: 500 !important;
+float: left;
+line-height: 32px !important;
+padding: 3px 13px;
+font-size: 12px
+}

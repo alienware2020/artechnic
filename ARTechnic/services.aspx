@@ -4,6 +4,7 @@
 </asp:Content>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+    <asp:HiddenField runat="server" ID="hiddenServiceName" ClientIDMode="Static"/>
     <div class="header_page">
         <div class="container">
             <div class="row-fluid">
@@ -42,7 +43,7 @@
                                     </ul>
                                 </div>
                                 <div class="span9" id="servicesMainContent">
-                                    <div id="webDevelopment" class="services_content">
+                                    <div id="webDevelopment" class="services_content" style="display: none;">
                                         <div class="themeple_sc">
                                             <div class="header">
                                                 <h3>Website Development</h3>
@@ -53,7 +54,7 @@
                                         <p>With more than 10 years' experience in designing, developing and supporting web applications and more than 1500 projects completed for customers in over 30 countries, Iflexion is the reputable and reliable “one-stop” vendor to realize your most ambitious and complex projects.</p>
                                         <p>There are many variations of&nbsp;<span class="highlight">&nbsp;passages&nbsp;</span>&nbsp;of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly <span class="highlight">believable</span>. If you are going to use a passage.</p>
                                     </div>
-                                    <div id="mobileDevelopment" class="services_content">
+                                    <div id="mobileDevelopment" class="services_content" style="display: none;">
                                         <div class="themeple_sc">
                                             <div class="header">
                                                 <h3>Mobile Website Development</h3>
@@ -62,7 +63,7 @@
                                         </div>
                                         <p>There are many variations of&nbsp;<span style="color: #009dcd; font-weight: bold; font-size: inherit;">&nbsp;passages&nbsp;</span>&nbsp;of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly <span style="color: #009dcd; font-weight: bold; font-size: inherit;">believable</span>. If you are going to use a passage.</p>
                                     </div>
-                                    <div id="softwareDevelopment" class="services_content">
+                                    <div id="softwareDevelopment" class="services_content" style="display: none;">
                                         <div class="themeple_sc">
                                             <div class="header">
                                                 <h3>Software Development</h3>
@@ -71,7 +72,7 @@
                                         </div>
                                         <p>There are many variations of&nbsp;<span style="color: #009dcd; font-weight: bold; font-size: inherit;">&nbsp;passages&nbsp;</span>&nbsp;of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly <span style="color: #009dcd; font-weight: bold; font-size: inherit;">believable</span>. If you are going to use a passage.</p>
                                     </div>
-                                    <div id="eCommerce" class="services_content">
+                                    <div id="eCommerce" class="services_content" style="display: none;">
                                         <div class="themeple_sc">
                                             <div class="header">
                                                 <h3>E-Commerce</h3>

@@ -22,6 +22,42 @@ namespace ARTechnic {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
         
         /// <summary>
+        /// lnkbtnWebDevelopment control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkbtnWebDevelopment;
+        
+        /// <summary>
+        /// lnkbtnMobileDevelopment control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkbtnMobileDevelopment;
+        
+        /// <summary>
+        /// lnkbtnSoftwareDevelopment control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkbtnSoftwareDevelopment;
+        
+        /// <summary>
+        /// lnkbtnECommerce control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkbtnECommerce;
+        
+        /// <summary>
         /// MainContent control.
         /// </summary>
         /// <remarks>

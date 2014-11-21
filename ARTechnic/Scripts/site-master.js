@@ -54,6 +54,7 @@
     default:
         currentLink = "home";
     }
+    
     $("#navigation li").removeClass("current-menu-item").removeClass("current_page_item");
     $("#navigation").find("#" + currentLink).addClass("current-menu-item").addClass("current_page_item");
 
@@ -79,24 +80,54 @@
         }
     });
 
-    $("#formName").keypress(function() {
-
+    $("#services .sub-menu li").click(function() {
+        if (currentPath.search("service") == 1) {
+            var serviceName = "";
+            var id = $(this).find("a").attr("id").toLowerCase();
+            if (id.search("web") > 0) {
+                serviceName = "webDevelopment";
+            }
+            if (id.search("mobile") > 0) {
+                serviceName = "mobileDevelopment";
+            }
+            if (id.search("software") > 0) {
+                serviceName = "softwareDevelopment";
+            }
+            if (id.search("ecommerce") > 0) {
+                serviceName = "eCommerce";
+            }
+            enableServiceContent("#" + serviceName);
+            return false;
+        }
     });
 
-    $("#linkWebsiteDevelopment").click(function() {
-        $("#servicesMainContent").find(".services_content").css("display", "none");
-        $("#webDevelopment").css("display", "block");
+    $("#linkWebsiteDevelopment").click(function () {
+        enableServiceContent("#webDevelopment");
     });
     $("#linkMobileDevelopment").click(function () {
-        $("#servicesMainContent").find(".services_content").css("display", "none");
-        $("#mobileDevelopment").css("display", "block");
+        enableServiceContent("#mobileDevelopment");
     });
     $("#linkSoftwareDevelopment").click(function () {
-        $("#servicesMainContent").find(".services_content").css("display", "none");
-        $("#softwareDevelopment").css("display", "block");
+        enableServiceContent("#softwareDevelopment");
     });
     $("#linkECommerce").click(function () {
-        $("#servicesMainContent").find(".services_content").css("display", "none");
-        $("#eCommerce").css("display", "block");
+        enableServiceContent("#eCommerce");
     });
+
+    if (currentPath.search("service") == 1) {
+        var service = $("#hiddenServiceName").val();
+        enableServiceContent("#" + service);
+    }
 });
+
+function enableServiceContent(serviceName) {
+    $("#servicesMainContent").find(".services_content").css("display", "none");
+    $(serviceName).css("display", "block");
+}
+
+//function getParameterByName(name) {
+//    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+//    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+//        results = regex.exec(location.search);
+//    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+//}
