@@ -6379,11 +6379,12 @@ span.icon {
 .side-nav {
     float: left;
     list-style: none;
-    margin: 0;
+    margin: 0 0 0 -8px;
     padding: 0;
     /*border: 1px solid #ebebeb;*/
     border-bottom: none;
-    width: 100%;
+    width: auto;
+    position: fixed;
 }
 
     .side-nav li {
@@ -6445,7 +6446,7 @@ span.icon {
 }
 
 .side-nav li {
-    padding-right: 50px;
+    padding-right: 20px;
     border-bottom: 1px solid #e1e1e1;
     padding-left: 20px;
     cursor: pointer;
@@ -9898,7 +9899,14 @@ span.highlight {
     font-weight: bold;
     font-size: inherit;
 }
-
+div.highlight
+{
+    color: #009dcd;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
 submenu {
     color: #777;
     text-transform: lowercase;
@@ -9929,19 +9937,21 @@ submenu {
     padding: 25px;
     background-color: #ffffff;
     font-size: 13px;
+    text-align: justify;
 }
-
+.servicesMainContent li
+{
+    padding-bottom: 5px;
+}
 .themeple_sc .header h3 {
     text-transform: uppercase;
 }
 
 .sub-tag {
     color: #555555;
-    width: 150px;
     background-color: #efefef;
-    margin-left: -25px;
-    padding-left: 25px;
-    padding: 5px 5px 5px 25px;
+    /*margin-left: -25px;*/
+    padding: 5px 5px 5px 10px;
 }
 
 .companyHighlight {

@@ -133,7 +133,7 @@
 
 function enableServiceContent(serviceName,currentService) {
     $("#servicesMainContent").find(".services_content").css("display", "none");
-    $(serviceName).css("display", "block");
+    $(serviceName).fadeIn(1000);//.css("display", "block");
     $(currentService).parent().find("li").not(currentService).css("border-right", "1px solid #e1e1e1").css("background-color", "#fbfbfb").css("color", "#777777");//.css("transition-duration", "0.4s");
     $(currentService).css("border-right", "0px").css("background-color", "#ffffff").css("color", "#009dcd");
     $(currentService).parent().find("li").not(currentService).hover(function () {
@@ -145,6 +145,8 @@ function enableServiceContent(serviceName,currentService) {
     $(currentService).mouseout(function () {
         $(this).css("background-color", "#ffffff").css("color", "#009dcd");
     });
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+    //window.scrollTo(0, 0);
 }
 
 
