@@ -195,17 +195,17 @@ nav .menu li a {
 
 
 .header_2 .footer_social_icons li, .header_4_right .footer_social_icons li {
-    background-image: url(img/team-about.png) !important;
+    background-image: url(../Content/img/team-about.png) !important;
     background-repeat: no-repeat !important;
 }
 
     .header_2 .footer_social_icons li:hover, .header_4_right .footer_social_icons li:hover {
-        background-image: url(img/team-about.png) !important;
+        background-image: url(../Content/img/team-about.png) !important;
         background-repeat: no-repeat !important;
     }
 
 .header_2 .top_nav_sub.search #search-form .input-append .more {
-    background-image: url('img/s_e.png');
+    background-image: url('../Content/img/s_e.png');
 }
 
 .header_2 .top_nav .widget a:hover {
@@ -230,7 +230,7 @@ nav .menu li a {
     transition-duration: 0.4s;
     height: 30px;
     opacity: 1;
-    background: url('img/headbg.png');
+    background: url('../Content/img/headbg.png');
 }
 
 .header_4 .row-fluid:nth-child(2) .span12 {
@@ -470,7 +470,7 @@ header#header #search-form {
         position: relative;
         top: 12px;
         cursor: pointer;
-        background: url('img/icons/search_menu.png') no-repeat 6px center;
+        background: url('../Content/img/icons/search_menu.png') no-repeat 6px center;
         border-radius: 3px;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
@@ -915,7 +915,7 @@ nav .menu li:first-child {
         position: relative;
         top: 4px;
         border-color: #cbcbcb;
-        background: url('img/search_icon.png') no-repeat 6px center;
+        background: url('../Content/img/search_icon.png') no-repeat 6px center;
         padding-left: 22px;
     }
 
@@ -940,13 +940,13 @@ nav .menu li:first-child {
     height: 80px;
     float: left;
     margin-bottom: 75px;
-    background: #f4f4f4 url('img/header_.png') center no-repeat;
+    background: #f4f4f4 url('../Content/img/header_.png') center no-repeat;
     border-bottom: 1px solid #ebebeb;
 }
 
 .headgradient {
     height: 100%;
-    background: url('img/headgradient.html')repeat-y;
+    background: url('../Content/img/headgradient.html')repeat-y;
     width: 480px;
     position: absolute;
     left: 50%;
@@ -956,7 +956,7 @@ nav .menu li:first-child {
 
 .headborder {
     height: 10px;
-    background: url('img/headborder.html') no-repeat;
+    background: url('../Content/img/headborder.html') no-repeat;
     width: 480px;
     position: absolute;
     left: 50%;
@@ -1055,7 +1055,7 @@ nav .menu li:first-child {
     width: 100%;
     position: relative;
     z-index: 0;
-    background: url('img/header_shadow.png') center bottom no-repeat;
+    background: url('../Content/img/header_shadow.png') center bottom no-repeat;
     bottom: 75px;
     float: left;
     height: 12px;
@@ -1164,8 +1164,8 @@ footer .widget_search input[type="text"] {
             }
 
 header#header .shadow {
-    display: none;
-    background: url('img/big_shadow_full.png') center no-repeat;
+    display: block;
+    background: url('../Content/img/big_shadow_full.png') center no-repeat;
     width: 100%;
     height: 81px;
     position: absolute;
@@ -1265,112 +1265,112 @@ footer h4.widget-title {
 
 
         #copyright .footer_social_icons li.mail, .social_icons li.mail {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -2px 0px;
         }
 
         #copyright .footer_social_icons li.linkedin, .social_icons li.linkedin {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -33px 0px;
         }
 
         #copyright .footer_social_icons li.pinterest, .social_icons li.pinterest {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -58px 0px;
         }
 
         #copyright .footer_social_icons li.dribble, .social_icons li.dribble {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -108px 0px;
         }
 
         #copyright .footer_social_icons li.twitter, .social_icons li.twitter {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -134px 0px;
         }
 
         #copyright .footer_social_icons li.facebook, .social_icons li.facebook {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -161px 0px;
         }
 
         #copyright .footer_social_icons li.flickr, .social_icons li.flickr {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -181px 0px;
         }
 
         #copyright .footer_social_icons li.search, .social_icons li.search {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -207px 0px;
         }
 
         #copyright .footer_social_icons li.delicious, .social_icons li.delicious {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -233px 0px;
         }
 
         #copyright .footer_social_icons li.skype, .social_icons li.skype {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -259px 0px;
         }
 
         #copyright .footer_social_icons li.forrst, .social_icons li.forrst {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -285px 0px;
         }
 
         #copyright .footer_social_icons li.paypal, .social_icons li.paypal {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -311px 0px;
         }
 
         #copyright .footer_social_icons li.behance, .social_icons li.behance {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -337px 0px;
         }
 
         #copyright .footer_social_icons li.deviantart, .social_icons li.deviantart {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -363px 0px;
         }
 
         #copyright .footer_social_icons li.digg, .social_icons li.digg {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -389px 0px;
         }
 
         #copyright .footer_social_icons li.vimeo, .social_icons li.vimeo {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -415px 0px;
         }
 
         #copyright .footer_social_icons li.yahoo, .social_icons li.yahoo {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -441px 0px;
         }
 
         #copyright .footer_social_icons li.youtube, .social_icons li.youtube {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -467px 0px;
         }
 
         #copyright .footer_social_icons li.picasa, .social_icons li.picasa {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -493px 0px;
         }
 
         #copyright .footer_social_icons li.reddit, .social_icons li.reddit {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -517px 0px;
         }
 
         #copyright .footer_social_icons li.google-plus, .social_icons li.google-plus {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -546px 0px;
         }
 
         #copyright .footer_social_icons li.rss, .social_icons li.rss {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -570px 0px;
         }
 
@@ -1379,112 +1379,112 @@ footer h4.widget-title {
 
 
         #copyright .footer_social_icons li.mail:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -2px -24px;
         }
 
         #copyright .footer_social_icons li.linkedin:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -33px -24px;
         }
 
         #copyright .footer_social_icons li.pinterest:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -58px -24px;
         }
 
         #copyright .footer_social_icons li.dribble:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -108px -24px;
         }
 
         #copyright .footer_social_icons li.twitter:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -134px -24px;
         }
 
         #copyright .footer_social_icons li.facebook:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -161px -24px;
         }
 
         #copyright .footer_social_icons li.flickr:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -181px -24px;
         }
 
         #copyright .footer_social_icons li.search:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -207px -24px;
         }
 
         #copyright .footer_social_icons li.delicious:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -233px -24px;
         }
 
         #copyright .footer_social_icons li.skype:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -259px -24px;
         }
 
         #copyright .footer_social_icons li.forrst:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -285px -24px;
         }
 
         #copyright .footer_social_icons li.paypal:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -311px -24px;
         }
 
         #copyright .footer_social_icons li.behance:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -337px -24px;
         }
 
         #copyright .footer_social_icons li.deviantart:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -363px -24px;
         }
 
         #copyright .footer_social_icons li.digg:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -389px -24px;
         }
 
         #copyright .footer_social_icons li.vimeo:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -415px -24px;
         }
 
         #copyright .footer_social_icons li.yahoo:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -441px -24px;
         }
 
         #copyright .footer_social_icons li.youtube:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -467px -24px;
         }
 
         #copyright .footer_social_icons li.picasa:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -493px -24px;
         }
 
         #copyright .footer_social_icons li.reddit:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -517px -24px;
         }
 
         #copyright .footer_social_icons li.google-plus:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -546px -24px;
         }
 
         #copyright .footer_social_icons li.rss:hover {
-            background: url('img/social-icons-small.png') no-repeat;
+            background: url('../Content/img/social-icons-small.png') no-repeat;
             background-position: -570px -24px;
         }
 
@@ -1495,112 +1495,112 @@ footer h4.widget-title {
 /** Team Social icons **/
 
 .social_icons li.mail {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -2px 0px;
 }
 
 .social_icons li.linkedin {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -33px 0px;
 }
 
 .social_icons li.pinterest {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -58px 0px;
 }
 
 .social_icons li.dribble {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -108px 0px;
 }
 
 .social_icons li.twitter {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -134px 0px;
 }
 
 .social_icons li.facebook {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -155px 0px;
 }
 
 .social_icons li.flickr {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -181px 0px;
 }
 
 .social_icons li.search {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -207px 0px;
 }
 
 .social_icons li.delicious {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -233px 0px;
 }
 
 .social_icons li.skype {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -259px 0px;
 }
 
 .social_icons li.forrst {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -285px 0px;
 }
 
 .social_icons li.paypal {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -311px 0px;
 }
 
 .social_icons li.behance {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -337px 0px;
 }
 
 .social_icons li.deviantart {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -363px 0px;
 }
 
 .social_icons li.digg {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -389px 0px;
 }
 
 .social_icons li.vimeo {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -415px 0px;
 }
 
 .social_icons li.yahoo {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -441px 0px;
 }
 
 .social_icons li.youtube {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -467px 0px;
 }
 
 .social_icons li.picasa {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -493px 0px;
 }
 
 .social_icons li.reddit {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -517px 0px;
 }
 
 .social_icons li.google-plus {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -546px 0px;
 }
 
 .social_icons li.rss {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -570px 0px;
 }
 
@@ -1609,112 +1609,112 @@ footer h4.widget-title {
 
 
 .social_icons li.mail:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -2px -24px;
 }
 
 .social_icons li.linkedin:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -33px -24px;
 }
 
 .social_icons li.pinterest:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -58px -24px;
 }
 
 .social_icons li.dribble:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -108px -24px;
 }
 
 .social_icons li.twitter:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -134px -24px;
 }
 
 .social_icons li.facebook:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -155px -24px;
 }
 
 .social_icons li.flickr:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -181px -24px;
 }
 
 .social_icons li.search:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -207px -24px;
 }
 
 .social_icons li.delicious:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -233px -24px;
 }
 
 .social_icons li.skype:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -259px -24px;
 }
 
 .social_icons li.forrst:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -285px -24px;
 }
 
 .social_icons li.paypal:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -311px -24px;
 }
 
 .social_icons li.behance:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -337px -24px;
 }
 
 .social_icons li.deviantart:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -363px -24px;
 }
 
 .social_icons li.digg:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -389px -24px;
 }
 
 .social_icons li.vimeo:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -415px -24px;
 }
 
 .social_icons li.yahoo:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -441px -24px;
 }
 
 .social_icons li.youtube:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -467px -24px;
 }
 
 .social_icons li.picasa:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -493px -24px;
 }
 
 .social_icons li.reddit:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -517px -24px;
 }
 
 .social_icons li.google-plus:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -546px -24px;
 }
 
 .social_icons li.rss:hover {
-    background: url('img/team-about.png') no-repeat;
+    background: url('../Content/img/team-about.png') no-repeat;
     background-position: -570px -24px;
 }
 
@@ -1727,112 +1727,112 @@ footer h4.widget-title {
 /** Header Social Icons **/
 
 .footer_social_icons li.mail {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -2px 0px;
 }
 
 .footer_social_icons li.linkedin {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -33px 0px;
 }
 
 .footer_social_icons li.pinterest {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -58px 0px;
 }
 
 .footer_social_icons li.dribble {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -108px 0px;
 }
 
 .footer_social_icons li.twitter {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -134px 0px;
 }
 
 .footer_social_icons li.facebook {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -162px 0px;
 }
 
 .footer_social_icons li.flickr {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -185px 0px;
 }
 
 .footer_social_icons li.search {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -207px 0px;
 }
 
 .footer_social_icons li.delicious {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -233px 0px;
 }
 
 .footer_social_icons li.skype {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -259px 0px;
 }
 
 .footer_social_icons li.forrst {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -285px 0px;
 }
 
 .footer_social_icons li.paypal {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -311px 0px;
 }
 
 .footer_social_icons li.behance {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -337px 0px;
 }
 
 .footer_social_icons li.deviantart {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -363px 0px;
 }
 
 .footer_social_icons li.digg {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -389px 0px;
 }
 
 .footer_social_icons li.vimeo {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -415px 0px;
 }
 
 .footer_social_icons li.yahoo {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -441px 0px;
 }
 
 .footer_social_icons li.youtube {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -467px 0px;
 }
 
 .footer_social_icons li.picasa {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -493px 0px;
 }
 
 .footer_social_icons li.reddit {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -517px 0px;
 }
 
 .footer_social_icons li.google-plus {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -546px 0px;
 }
 
 .footer_social_icons li.rss {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -570px 0px;
 }
 
@@ -1841,112 +1841,112 @@ footer h4.widget-title {
 
 
 .footer_social_icons li.mail:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -2px -24px;
 }
 
 .footer_social_icons li.linkedin:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -33px -24px;
 }
 
 .footer_social_icons li.pinterest:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -58px -24px;
 }
 
 .footer_social_icons li.dribble:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -108px -24px;
 }
 
 .footer_social_icons li.twitter:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -134px -24px;
 }
 
 .footer_social_icons li.facebook:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -162px -24px;
 }
 
 .footer_social_icons li.flickr:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -185px -24px;
 }
 
 .footer_social_icons li.search:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -207px -24px;
 }
 
 .footer_social_icons li.delicious:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -233px -24px;
 }
 
 .footer_social_icons li.skype:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -259px -24px;
 }
 
 .footer_social_icons li.forrst:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -285px -24px;
 }
 
 .footer_social_icons li.paypal:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -311px -24px;
 }
 
 .footer_social_icons li.behance:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -337px -24px;
 }
 
 .footer_social_icons li.deviantart:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -363px -24px;
 }
 
 .footer_social_icons li.digg:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -389px -24px;
 }
 
 .footer_social_icons li.vimeo:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -415px -24px;
 }
 
 .footer_social_icons li.yahoo:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -441px -24px;
 }
 
 .footer_social_icons li.youtube:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -467px -24px;
 }
 
 .footer_social_icons li.picasa:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -493px -24px;
 }
 
 .footer_social_icons li.reddit:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -517px -24px;
 }
 
 .footer_social_icons li.google-plus:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -546px -24px;
 }
 
 .footer_social_icons li.rss:hover {
-    background: url('img/social-icons-small-team.png') no-repeat;
+    background: url('../Content/img/social-icons-small-team.png') no-repeat;
     background-position: -570px -24px;
 }
 
@@ -2199,19 +2199,19 @@ footer .widget_contact_info li {
 }
 
     footer .widget_contact_info li.address {
-        background: url('img/address.png') left center no-repeat;
+        background: url('../Content/img/address.png') left center no-repeat;
     }
 
     footer .widget_contact_info li.phone {
-        background: url('img/phone.png') left center no-repeat;
+        background: url('../Content/img/phone.png') left center no-repeat;
     }
 
     footer .widget_contact_info li.email {
-        background: url('img/mail.png') left center no-repeat;
+        background: url('../Content/img/mail.png') left center no-repeat;
     }
 
     footer .widget_contact_info li.web {
-        background: url('img/fax.png') left center no-repeat;
+        background: url('../Content/img/fax.png') left center no-repeat;
     }
 
 
@@ -2404,7 +2404,7 @@ footer .widget_recent_posts li {
 
 .blog-article dl {
     margin-top: 27px;
-    background: url('img/border.png') bottom center repeat-x;
+    background: url('../Content/img/border.png') bottom center repeat-x;
     padding-bottom: 15px;
     margin-bottom: 9px;
 }
@@ -2524,7 +2524,7 @@ footer .widget_recent_posts li {
 .blog-article .info {
     width: 100%;
     float: left;
-    background: url('img/border.png') bottom center repeat-x;
+    background: url('../Content/img/border.png') bottom center repeat-x;
 }
 
     .blog-article .info.single_info {
@@ -2622,7 +2622,7 @@ footer .widget_recent_posts li {
 .comment dl {
     margin-top: 0;
     margin-bottom: 0px;
-    background: url('img/author_arrow.html') no-repeat;
+    background: url('../Content/img/author_arrow.html') no-repeat;
     background-position: 35px 13px;
 }
 
@@ -2822,7 +2822,7 @@ footer .widget_recent_posts li {
 
 .flexslider .headborder {
     height: 18px;
-    background: url('img/headborder.html') repeat-y;
+    background: url('../Content/img/headborder.html') repeat-y;
     width: 50%;
     position: absolute;
     left: 50%;
@@ -2937,7 +2937,7 @@ a {
 
 
 .btn .icon {
-    background-image: url('img/shig_btn.html');
+    background-image: url('../Content/img/shig_btn.html');
     background-position: center;
     background-repeat: no-repeat;
     float: left;
@@ -2996,7 +2996,7 @@ a {
     }
 
 footer .widget-title {
-    background: url('img/ft_bd.png') center repeat-x;
+    background: url('../Content/img/ft_bd.png') center repeat-x;
     margin-bottom: 15px;
 }
 
@@ -3025,7 +3025,7 @@ aside h4.widget-title {
     float: left;
     padding-bottom: 12px;
     line-height: 25px;
-    background: url('img/border.png') bottom center repeat-x;
+    background: url('../Content/img/border.png') bottom center repeat-x;
     width: 100%;
 }
 
@@ -3815,7 +3815,7 @@ footer .widget_recent_posts dd {
 }
 
 .circle .shape4 {
-    background: url('img/shapes/218x140reth.png') no-repeat 0 0 transparent;
+    background: url('../Content/img/shapes/218x140reth.png') no-repeat 0 0 transparent;
     width: 300px;
     height: 170px;
     position: absolute;
@@ -3827,7 +3827,7 @@ footer .widget_recent_posts dd {
 
 
 .circle .shape3 {
-    background: url('img/shapes/298x170reth.png') no-repeat 0 0 transparent;
+    background: url('../Content/img/shapes/298x170reth.png') no-repeat 0 0 transparent;
     width: 300px;
     height: 170px;
     position: absolute;
@@ -3839,7 +3839,7 @@ footer .widget_recent_posts dd {
 
 
 .circle .shape2 {
-    background: url('img/shapes/458x275reth.png') no-repeat 0 0 transparent;
+    background: url('../Content/img/shapes/458x275reth.png') no-repeat 0 0 transparent;
     width: 456px;
     height: 275px;
     position: absolute;
@@ -3849,7 +3849,7 @@ footer .widget_recent_posts dd {
 }
 
 .triangle .shape4 {
-    background: url('img/shapes/218x140tre.png') no-repeat 0 0 transparent;
+    background: url('../Content/img/shapes/218x140tre.png') no-repeat 0 0 transparent;
     width: 300px;
     height: 170px;
     position: absolute;
@@ -3859,7 +3859,7 @@ footer .widget_recent_posts dd {
 }
 
 .triangle .shape3 {
-    background: url('img/shapes/298x170tre.png') no-repeat 0 0 transparent;
+    background: url('../Content/img/shapes/298x170tre.png') no-repeat 0 0 transparent;
     width: 300px;
     height: 170px;
     position: absolute;
@@ -3869,7 +3869,7 @@ footer .widget_recent_posts dd {
 }
 
 .triangle .shape2 {
-    background: url('img/shapes/458x275tre.png') no-repeat 0 0 transparent;
+    background: url('../Content/img/shapes/458x275tre.png') no-repeat 0 0 transparent;
     width: 458px;
     height: 275px;
     position: absolute;
@@ -3879,7 +3879,7 @@ footer .widget_recent_posts dd {
 }
 
 .hexagonal .shape4 {
-    background: url('img/shapes/218x140hex.png') no-repeat 0 0 transparent;
+    background: url('../Content/img/shapes/218x140hex.png') no-repeat 0 0 transparent;
     width: 218px;
     height: 140px;
     position: absolute;
@@ -3889,7 +3889,7 @@ footer .widget_recent_posts dd {
 }
 
 .hexagonal .shape3 {
-    background: url('img/shapes/298x170hex.png') no-repeat 0 0 transparent;
+    background: url('../Content/img/shapes/298x170hex.png') no-repeat 0 0 transparent;
     width: 300px;
     height: 170px;
     position: absolute;
@@ -3899,7 +3899,7 @@ footer .widget_recent_posts dd {
 }
 
 .hexagonal .shape2 {
-    background: url('img/shapes/458x275hex.png') no-repeat 0 0 transparent;
+    background: url('../Content/img/shapes/458x275hex.png') no-repeat 0 0 transparent;
     width: 458px;
     height: 275px;
     position: absolute;
@@ -4166,7 +4166,7 @@ footer .widget_recent_posts dd {
 
     .single_content .content {
         padding-bottom: 30px;
-        background: url('img/bt.png') left bottom no-repeat;
+        background: url('../Content/img/bt.png') left bottom no-repeat;
     }
 
     .single_content ul.metas {
@@ -4352,35 +4352,35 @@ footer .widget_recent_posts dd {
 }
 
 .row-dynamic-el .span9 .flexslider .bottom_shadow {
-    background: url('img/shadow9.html') center bottom no-repeat;
+    background: url('../Content/img/shadow9.html') center bottom no-repeat;
     width: 798px;
     height: 260px;
     left: -52px;
 }
 
 .row-dynamic-el .span8 .flexslider .bottom_shadow {
-    background: url('img/shadow8.html') center bottom no-repeat;
+    background: url('../Content/img/shadow8.html') center bottom no-repeat;
     width: 712px;
     height: 260px;
     left: -47px;
 }
 
 .row-dynamic-el .span6 .flexslider .bottom_shadow {
-    background: url('img/shadow6.html') center bottom no-repeat;
+    background: url('../Content/img/shadow6.html') center bottom no-repeat;
     width: 526px;
     height: 260px;
     left: -33px;
 }
 
 .row-dynamic-el .span4 .flexslider .bottom_shadow {
-    background: url('img/shadow4.html') center bottom no-repeat;
+    background: url('../Content/img/shadow4.html') center bottom no-repeat;
     width: 344px;
     height: 260px;
     left: -22px;
 }
 
 .row-dynamic-el .span3 .flexslider .bottom_shadow {
-    background: url('img/shadow3.png') center bottom no-repeat;
+    background: url('../Content/img/shadow3.png') center bottom no-repeat;
     width: 253px;
     height: 260px;
     left: -17px;
@@ -4390,15 +4390,15 @@ footer .widget_recent_posts dd {
 
 /*
 
-  .span9 > .row-google-map .big_shadow{background:url('img/shadow9.png') center bottom no-repeat; width:798px; height:260px; left:-52px;}
+  .span9 > .row-google-map .big_shadow{background:url('../Content/img/shadow9.png') center bottom no-repeat; width:798px; height:260px; left:-52px;}
 
-  .span8 > .row-google-map .big_shadow{background:url('img/shadow8.png') center bottom no-repeat; width:712px; height:260px; left:-47px;}
+  .span8 > .row-google-map .big_shadow{background:url('../Content/img/shadow8.png') center bottom no-repeat; width:712px; height:260px; left:-47px;}
 
-  .span6 > .row-google-map .big_shadow{background:url('img/shadow6.png') center bottom no-repeat; width:526px; height:260px; left:-33px;}
+  .span6 > .row-google-map .big_shadow{background:url('../Content/img/shadow6.png') center bottom no-repeat; width:526px; height:260px; left:-33px;}
 
-  .span4 > .row-google-map .big_shadow{background:url('img/shadow4.png') center bottom no-repeat; width:344px; height:260px; left:-22px;}
+  .span4 > .row-google-map .big_shadow{background:url('../Content/img/shadow4.png') center bottom no-repeat; width:344px; height:260px; left:-22px;}
 
-  .span3 > .row-google-map .big_shadow{background:url('img/shadow3.png') center bottom no-repeat; width:253px; height:260px; left:-17px;}
+  .span3 > .row-google-map .big_shadow{background:url('../Content/img/shadow3.png') center bottom no-repeat; width:253px; height:260px; left:-17px;}
 
   /* End Dynamic Elements */
 
@@ -4435,7 +4435,7 @@ footer .widget_recent_posts dd {
 .sticky_box .circle {
     width: 34px;
     height: 34px;
-    background: url('img/circle_info.png') no-repeat;
+    background: url('../Content/img/circle_info.png') no-repeat;
     position: absolute;
     right: 20px;
     bottom: 20px;
@@ -4475,7 +4475,7 @@ footer .widget_recent_posts dd {
         border: none;
         background: none;
         margin-left: 0;
-        background: url('img/border.png') top center repeat-x, url('img/border.png') bottom center repeat-x;
+        background: url('../Content/img/border.png') top center repeat-x, url('../Content/img/border.png') bottom center repeat-x;
     }
 
 .textbar {
@@ -4569,7 +4569,7 @@ footer .widget_recent_posts dd {
         }
 
         #dynamic_testimonial li .arrow {
-            background: url('img/testimonial_arrow.png') center no-repeat;
+            background: url('../Content/img/testimonial_arrow.png') center no-repeat;
             width: 43px;
             height: 23px;
             float: left;
@@ -4579,7 +4579,7 @@ footer .widget_recent_posts dd {
         }
 
         #dynamic_testimonial li .author {
-            background: url('img/user_testimonial.png') left no-repeat;
+            background: url('../Content/img/user_testimonial.png') left no-repeat;
             height: 28px;
             float: left;
             color: #505558;
@@ -4825,8 +4825,8 @@ footer .widget_recent_posts dd {
 }
 
 .services_list dt {
-    width: 75px;
-    height: 75px;
+    width: 75px ;
+    height: 75px ;
     background: #f7f7f7;
     border: 1px solid #d6d6d6;
     -webkit-border-radius: 50%;
@@ -5218,7 +5218,7 @@ footer .widget_recent_posts dd {
 
 
 .follow_tweet {
-    background: url('img/twitter_follow.html') center no-repeat;
+    background: url('../Content/img/twitter_follow.html') center no-repeat;
     width: 75px !important;
     height: 26px !important;
     margin-top: -5px;
@@ -6056,7 +6056,7 @@ footer .widget_recent_posts dd {
     }
 
 .clients_shadow {
-    background: url('img/clients_shadow.html') center bottom no-repeat;
+    background: url('../Content/img/clients_shadow.html') center bottom no-repeat;
     float: left;
     position: relative;
     width: 100%;
@@ -6646,7 +6646,7 @@ h6.desc_title {
 
     .row-google-map .big_shadow {
         position: absolute;
-        background: url('img/big_shadow.html') center bottom no-repeat;
+        background: url('../Content/img/big_shadow.html') center bottom no-repeat;
         width: 1080px;
         height: 260px;
         left: -70px;
@@ -6670,7 +6670,7 @@ h6.desc_title {
     }
 
     .get_free_quote .shadow {
-        background-image: url('img/shadow2.png');
+        background-image: url('../Content/img/shadow2.png');
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: bottom center;
@@ -6790,7 +6790,7 @@ ul.default_list {
     padding: 0;
     margin: 0;
     list-style: none;
-    list-style-image: url('img/tick.png');
+    list-style-image: url('../Content/img/tick.png');
     margin-left: 16px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -6938,39 +6938,39 @@ ul.default_list {
 
 
     .boxed_layout .header_content .fullshadow {
-        background: url('img/header_shadow.png') center no-repeat;
+        background: url('../Content/img/header_shadow.png') center no-repeat;
     }
 
 .pattern-1 {
-    background: url("img/switcher/gplaypattern.png");
+    background: url("../Content/img/switcher/gplaypattern.png");
 }
 
 .pattern-2 {
-    background: url("img/switcher/debut_dark.png");
+    background: url("../Content/img/switcher/debut_dark.png");
 }
 
 .pattern-3 {
-    background: url("img/switcher/tileable_wood_texture.png");
+    background: url("../Content/img/switcher/tileable_wood_texture.png");
 }
 
 .pattern-4 {
-    background: url("img/switcher/straws.html");
+    background: url("../Content/img/switcher/straws.html");
 }
 
 .pattern-5 {
-    background: url("img/switcher/strange_bullseyes.png");
+    background: url("../Content/img/switcher/strange_bullseyes.png");
 }
 
 .pattern-6 {
-    background: url("img/switcher/shattered.png");
+    background: url("../Content/img/switcher/shattered.png");
 }
 
 .pattern-7 {
-    background: url("img/switcher/dust.png");
+    background: url("../Content/img/switcher/dust.png");
 }
 
 .pattern-8 {
-    background: url("img/switcher/gplaypattern.png");
+    background: url("../Content/img/switcher/gplaypattern.png");
 }
 
 
@@ -7054,7 +7054,7 @@ ul.default_list {
     width: 100%;
     float: left;
     margin-bottom: 20px;
-    background: url('img/header_divider.html') center repeat-x;
+    background: url('../Content/img/header_divider.html') center repeat-x;
 }
 
 .dyn_side_title {
@@ -7070,7 +7070,7 @@ ul.default_list {
     -moz-border-radius: 6px;
     border-radius: 6px;
     height: 32px !important;
-    background: url('../img/search.html') no-repeat;
+    background: url('../../Content/img/search.html') no-repeat;
     background-position: 12px 15px;
     padding-left: 34px !important;
     border-color: #cecece;
@@ -7086,7 +7086,7 @@ ul.default_list {
 }
 
 .dyn_widget ul li {
-    background: url('../img/li_style.html') no-repeat;
+    background: url('../../Content/img/li_style.html') no-repeat;
     background-position: 2px 6px;
     padding-left: 17px;
     margin-bottom: 14px;
@@ -7130,7 +7130,7 @@ ul.default_list {
     overflow: hidden;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url('../img/select_arrow.html') no-repeat right;
+    background: url('../../Content/img/select_arrow.html') no-repeat right;
     height: 41px;
     width: 100%;
     background-position: 91% 0px;
@@ -7252,23 +7252,23 @@ ul.default_list {
 }
 
     .dyn_widget .widget_contact_info li.address {
-        background: url('img/address.png') left center no-repeat;
+        background: url('../Content/img/address.png') left center no-repeat;
     }
 
     .dyn_widget .widget_contact_info li.phone {
-        background: url('img/phone.png') left center no-repeat;
+        background: url('../Content/img/phone.png') left center no-repeat;
     }
 
     .dyn_widget .widget_contact_info li.fax {
-        background: url('img/fax.png') left center no-repeat;
+        background: url('../Content/img/fax.png') left center no-repeat;
     }
 
     .dyn_widget .widget_contact_info li.email {
-        background: url('img/mail.png') left center no-repeat;
+        background: url('../Content/img/mail.png') left center no-repeat;
     }
 
     .dyn_widget .widget_contact_info li.contact {
-        background: url('img/map.png') left center no-repeat;
+        background: url('../Content/img/map.png') left center no-repeat;
     }
 
     .dyn_widget .widget_contact_info li a {
@@ -7424,7 +7424,7 @@ ul.default_list {
     }
 
 .slider .bottom_shadow {
-    background-image: url('img/slide_shadow.png');
+    background-image: url('../Content/img/slide_shadow.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom center;
@@ -7490,7 +7490,7 @@ header#header.header_5 .row-fluid .span12 {
 
     .not_found_error .big_shadow {
         position: absolute;
-        background: url('img/big_shadow.html') center bottom no-repeat;
+        background: url('../Content/img/big_shadow.html') center bottom no-repeat;
         width: 1080px;
         height: 260px;
         left: -70px;
@@ -7498,7 +7498,7 @@ header#header.header_5 .row-fluid .span12 {
     }
 
 .wrapper_background {
-    background: url('img/wrapperbg.png') repeat-x;
+    background: url('../Content/img/wrapperbg.png') repeat-x;
     border-top: 1px solid #d4d4d4;
 }
 
@@ -7634,7 +7634,7 @@ header#header.header_5 .row-fluid .span12 {
 
     .header_content .headborder {
         height: 100%;
-        background: url('img/headborder.html') repeat-y;
+        background: url('../Content/img/headborder.html') repeat-y;
         width: 480px;
         position: absolute;
         left: 50%;
@@ -7642,7 +7642,7 @@ header#header.header_5 .row-fluid .span12 {
     }
 
     .header_content .fullshadow {
-        background: url('img/fullshadow.png') center no-repeat;
+        background: url('../Content/img/fullshadow.png') center no-repeat;
         width: 100%;
         position: absolute;
         height: 72px;
@@ -7650,7 +7650,7 @@ header#header.header_5 .row-fluid .span12 {
     }
 
 .container .header_content .fullshadow {
-    background: url('img/containershadow.png') center no-repeat;
+    background: url('../Content/img/containershadow.png') center no-repeat;
     width: 100%;
     position: absolute;
     height: 72px;
@@ -7822,7 +7822,7 @@ aside .accordion-inner {
 }
 
 .ls-defaultskin .ls-nav-prev {
-    background-image: url('img/prev.png') !important;
+    background-image: url('../Content/img/prev.png') !important;
     background-position: 0 0 !important;
     width: 56px !important;
     height: 56px !important;
@@ -7836,14 +7836,14 @@ aside .accordion-inner {
 }
 
 .ls-defaultskin .ls-nav-prev:hover {
-    background-image: url('img/prev_h.png') !important;
+    background-image: url('../Content/img/prev_h.png') !important;
     background-position: 0 0 !important;
 }
 
 
 
 .ls-defaultskin .ls-nav-next {
-    background-image: url('img/next.png') !important;
+    background-image: url('../Content/img/next.png') !important;
     background-position: 0 0 !important;
     width: 56px !important;
     height: 56px !important;
@@ -7852,7 +7852,7 @@ aside .accordion-inner {
 
 
     .ls-defaultskin .ls-nav-next:hover {
-        background-image: url('img/next_h.png') !important;
+        background-image: url('../Content/img/next_h.png') !important;
         background-position: 0 0 !important;
     }
 
@@ -8013,7 +8013,7 @@ aside .accordion-inner {
     margin-top: -15.5px;
     height: 31px;
     width: 25px;
-    background: url('img/test-arrow.png') no-repeat;
+    background: url('../Content/img/test-arrow.png') no-repeat;
 }
 
 .testimonials_block .position {
@@ -8025,7 +8025,7 @@ aside .accordion-inner {
 }
 
     .single_testimonial .arrow {
-        background-image: url('img/shadow.png');
+        background-image: url('../Content/img/shadow.png');
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: bottom center;
@@ -8080,7 +8080,7 @@ aside .accordion-inner {
     position: absolute;
     right: 30px;
     bottom: 15px;
-    background: url('img/comment-icon.png') no-repeat;
+    background: url('../Content/img/comment-icon.png') no-repeat;
     width: 46px;
     height: 38px;
 }
@@ -8089,7 +8089,7 @@ aside .accordion-inner {
     position: absolute;
     left: 57px;
     bottom: -29px;
-    background: url('img/comment-arrow.png') no-repeat;
+    background: url('../Content/img/comment-arrow.png') no-repeat;
     width: 38px;
     height: 29px;
 }
@@ -8145,7 +8145,7 @@ aside .accordion-inner {
 }
 
     .dynamic_slideshow .shadow {
-        background-image: url('img/shadow2.png');
+        background-image: url('../Content/img/shadow2.png');
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: bottom center;
@@ -8178,7 +8178,7 @@ aside .accordion-inner {
     }
 
     #testimonials .ic {
-        background: url('img/testi_arrow.png') no-repeat;
+        background: url('../Content/img/testi_arrow.png') no-repeat;
         position: relative;
         background-position: 140px 0;
         width: 100%;
@@ -8273,7 +8273,7 @@ aside .accordion-inner {
     float: left;
     font-size: 15px;
     line-height: 22px;
-    background: url('img/border.png') no-repeat bottom center;
+    background: url('../Content/img/border.png') no-repeat bottom center;
     padding-bottom: 19px;
 }
 
@@ -8317,7 +8317,7 @@ aside .accordion-inner {
     }
 
         .absolute_single_nav .links a.prev {
-            background-image: url('img/icons/arrow-left.png');
+            background-image: url('../Content/img/icons/arrow-left.png');
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -8325,7 +8325,7 @@ aside .accordion-inner {
 
 
         .absolute_single_nav .links a.next {
-            background-image: url('img/icons/arrow-right.png');
+            background-image: url('../Content/img/icons/arrow-right.png');
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -8971,7 +8971,7 @@ body.header_6 .top_nav {
 
 .price_1_col .footer a:hover {
     background-color: #f4f3f3 !important;
-    background-image: url('../img/cart.html') no-repeat !important;
+    background-image: url('../../Content/img/cart.html') no-repeat !important;
     color: #555;
     font-weight: 400;
     border: 1px solid #ebebeb;
@@ -8988,7 +8988,7 @@ body.header_6 .top_nav {
     right: 100px;
     display: none;
     text-indent: -9999px;
-    background: url('img/icon_top.png') no-repeat;
+    background: url('../Content/img/icon_top.png') no-repeat;
 }
 
 /** Comming Soon Page Styling **/
@@ -9400,35 +9400,35 @@ body.header_6 .top_nav {
 
 
 .tp-bullets.simplebullets.round .bullet, #slider-fixed .flex-control-paging li a {
-    background: url('img/dots.png') no-repeat 0 -20px;
+    background: url('../Content/img/dots.png') no-repeat 0 -20px;
 }
 
 .tp-leftarrow.default, #slider-fixed .flex-direction-nav .flex-prev {
-    background: url('img/left_arrow.png') no-repeat 0 -50px;
+    background: url('../Content/img/left_arrow.png') no-repeat 0 -50px;
     width: 55px;
     height: 51px;
 }
 
 .tp-rightarrow.default, #slider-fixed .flex-direction-nav .flex-next {
-    background: url('img/right_arrow.png') no-repeat 0 0px;
+    background: url('../Content/img/right_arrow.png') no-repeat 0 0px;
     width: 55px;
     height: 51px;
 }
 
 .tp-leftarrow.default:hover {
-    background: url('img/left_arrow.png') no-repeat 0 0px;
+    background: url('../Content/img/left_arrow.png') no-repeat 0 0px;
     width: 55px;
     height: 51px;
 }
 
 .tp-rightarrow.default:hover {
-    background: url('img/right_arrow.png') no-repeat 0 -50px;
+    background: url('../Content/img/right_arrow.png') no-repeat 0 -50px;
     width: 55px;
     height: 51px;
 }
 
 .tp-bullets.simplebullets.round .bullet.selected {
-    background: url('img/dots.png') no-repeat 0 0px;
+    background: url('../Content/img/dots.png') no-repeat 0 0px;
 }
 
 #slider-fixed .flex-control-paging li a {
@@ -9437,7 +9437,7 @@ body.header_6 .top_nav {
 }
 
     #slider-fixed .flex-control-paging li a.flex-active {
-        background: url('img/dots.png') no-repeat 0 0px;
+        background: url('../Content/img/dots.png') no-repeat 0 0px;
     }
 
 .themeple_sc .social_icons li {

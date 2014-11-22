@@ -12,11 +12,17 @@
 
     <!-- CSS BLOCK -->
     <link rel="icon" href="~/Images/logo_ar.ico" />
+    <link rel='stylesheet' href='Style/bootstrap.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='Style/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='Style/bootstrap-responsive.css' type='text/css' media='all' />
+    
     <!-- CSS BLOCK -->
 
     <asp:PlaceHolder runat="server">
-        <%: Scripts.Render("~/bundles/scripts") %>
-        <%: Styles.Render("~/Content/styles") %>
+         <%: Scripts.Render("~/bundles/scripts") %>
+         <%: Styles.Render("~/Content/styles") %>
+       
+       
     </asp:PlaceHolder>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
