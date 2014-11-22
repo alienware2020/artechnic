@@ -37,12 +37,12 @@ $(function($) {
 				$el.css('padding-bottom', 15-st + 'px');
 				$('nav .menu > li').not('.sub-menu li').css('height', 50-st + 'px');		 
 				$el.css('padding-top', 15-st + 'px');
-				//$logo.css('height', 46-(st*6/10));
+				$logo.css('height', 46-(st*6/10));
 			}else{
 				$el.css('padding-bottom', 0 + 'px');
 				$('nav .menu > li').not('.sub-menu li').css('height', 35 + 'px');			 
 				$el.css('padding-top', 0 + 'px');
-				//$logo.css('height', 32);
+				$logo.css('height', 32);
 			}
 		
 		});
@@ -59,6 +59,7 @@ $(function($) {
             } else {
                 $('.scrollup').fadeOut();
             }
+            //relative_scroll(".servicesMainContent", ".side-nav");
         }); 
 		
 		$('.dynamic_page_header .btns').each(function(){
@@ -567,88 +568,6 @@ $(".carousel_blog_single").each(function(){
 		$(this).addClass('active');
 	});
    
-	
-		
-	
-	/*$('.big_portfolio').off('click').on('click', function(e){
-		e.preventDefault();
-		
-		$.ajax({
-					type: "POST",
-					url: themeple_global.ajaxurl,
-					data: 
-					{
-						action: 'get_big_portfolio',
-						
-						
-					},
-                   
-					success: function(response)
-					{
-						
-                        	$('.page').prepend(response);
-                        
-                        
-					},
-                    complete: function(response){
-                        
-                    }
-                    
-                    
-				});
-			
-		$('<a></a>').prependTo('.page').attr({'class':'close_icon', 'href': '#'});
-		$('<i class="icon-remove"></i>').prependTo('.close_icon');
-		var curr = get_first_big_item();
-		active_big_item(get_first_big_item());
-		
-			curr = next_big_item(curr)
-			active_big_item(curr);
-		
-		
-		
-	});
-	
-	function active_big_item(id){
-
-		$('.big_portfolio_container').fadeOut();
-		$('#page-bg img').fadeOut();
-		$('.big_portfolio_container').livequery(function(){			
-			$('.big_portfolio_container[data-id='+id+'] img').prependTo('#page-bg').css('display', 'none').fadeIn();
-			$('.big_portfolio_container[data-id='+id+'] img').remove();
-			$('.big_portfolio_container[data-id='+id+']').css('display', 'block').fadeIn();
-			$('#page-bg img[data-id='+id+']').css('display', 'block').fadeIn();
-		}, function(){});
-	}
-		
-	function get_first_big_item(){
-		var id = $('.portfolio-item:first').data('id');
-		
-		return id;
-	}
-
-	function next_big_item(curr){
-		var id = $('.portfolio-item[data-id='+curr+']').next().data('id');
-		if(!id)
-			id = get_first_big_item();
-		return id;
-	}
-
-	$('.close_icon').off('click').on('click',function(e){
-		e.preventDefault();
-		$('#page-bg img').fadeOut('fast');
-		$('.big_portfolio_container').fadeOut('fast');
-		$('.top_nav').removeClass('transition_height');
-		$('header#header').removeClass('fixed_header ').css('opacity', '0.90');
-		$('.top_wrapper').show();
-		$('footer').show();
-		$('#copyright').show();
-	});
-	
-	*/
-	
-	
-	
 	if($().mobileMenu) {
 		$('#navigation nav').each(function(){
 			$(this).mobileMenu();
@@ -656,8 +575,6 @@ $(".carousel_blog_single").each(function(){
 		});
 		
 	}
-
- 
 
 	$('.flexslider').each(function(){ 
 		var $s = $(this);
@@ -793,9 +710,7 @@ $(".carousel_blog_single").each(function(){
 				}
 			});
 		}, 100);
-   
 }
-  
 
  $('nav#portfolio-filter ul li').click(function(){
     var selector = $(this).find('a').attr('data-filter');
@@ -813,10 +728,7 @@ $(".carousel_blog_single").each(function(){
     });
     return false;
   });
-	 
 
-
-	
 	$('nav#faq-filter li a').click(function(e){
 		e.preventDefault();
 
@@ -829,6 +741,30 @@ $(".carousel_blog_single").each(function(){
 		$(this).parent().addClass('active');
 	});
 
-	
-	
 });
+
+function relative_scroll(parent, item) {
+    if ($(item).length) {
+        var parent_height = $(parent).height() + parseInt($(parent).css("padding-bottom"));
+        var parent_offset = $(parent).offset().top;
+        var window_height = $(window).height();
+        var element_height = $(item).height();
+        var doc_scroll = $(document).scrollTop();
+
+        var progress = (doc_scroll - parent_offset) / (parent_height - window_height);
+
+        if (progress < 0) { progress = 0; }
+        if (progress > 1) { progress = 1; }
+
+        var scroll = (progress * ((parent_height + parseInt($(parent).css("margin-top"))) - element_height));
+        if (scroll < 0) { scroll = 0; }
+
+        if (element_height < parent_height) {
+            if (parseInt(scroll + element_height) < parent_height) {
+                $(item).css("margin-top", scroll + "px");
+            } else {
+                $(item).css("margin-top", (parseInt(parent_height) + parseInt($(parent).css("margin-top"))) - (element_height) + "px");
+            }
+        }
+    }
+}

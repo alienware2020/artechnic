@@ -6384,7 +6384,7 @@ span.icon {
     /*border: 1px solid #ebebeb;*/
     border-bottom: none;
     width: auto;
-    position: fixed;
+    /*position: fixed;*/
 }
 
     .side-nav li {
@@ -9969,4 +9969,8 @@ submenu {
 .companySmall {
     font-size: 13px !important;
     color: #999999;
+}
+.serviceMenuTop
+{
+    
 }
