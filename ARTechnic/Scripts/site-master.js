@@ -126,17 +126,20 @@
     if (currentPath.search("service") == 1) {
         var serviceName = $("#hiddenServiceName").val();
         var currentService = "";
-        if (serviceName.toLowerCase().search("web")) {
+        if (serviceName.toLowerCase().search("web") >= 0) {
             currentService = "#linkWebsiteDevelopment";
         }
-        else if (serviceName.toLowerCase().search("mobile")) {
+        else if (serviceName.toLowerCase().search("mobile") >= 0) {
             currentService = "#linkMobileDevelopment";
         }
-        else if (serviceName.toLowerCase().search("software")) {
+        else if (serviceName.toLowerCase().search("software") >= 0) {
             currentService = "#linkSoftwareDevelopment";
         }
-        else if (serviceName.toLowerCase().search("ecommerce")) {
+        else if (serviceName.toLowerCase().search("ecommerce") >= 0) {
             currentService = "#linkECommerce";
+        } else {
+            currentService = "#linkWebsiteDevelopment";
+            serviceName = "webDevelopment";
         }
         enableServiceContent("#" + serviceName, currentService);
     }

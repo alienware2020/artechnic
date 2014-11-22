@@ -4256,7 +4256,7 @@ footer .widget_recent_posts dd {
         -o-transition-duration: 0.4s;
         -ms-transition-duration: 0.4s;
         transition-duration: 0.4s;
-        padding-top: 3px;
+        padding-top: 0;
         padding-left: 1px;
     }
 

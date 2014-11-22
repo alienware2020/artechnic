@@ -146,32 +146,32 @@
 
                                 <div class="span4 services_small">
                                     <dl class="dl-horizontal">
-                                        <dt><span class="no_circle"><i class="moon-brush icon "></i></span></dt>
+                                        <dt><span class="no_circle"><i class="moon-user-8 icon "></i></span></dt>
                                         <dd class="with_icon">
-                                            <h4 class="with_icon"><a href="#">Design & Implement</a></h4>
+                                            <h4 class="with_icon"><a href="about">Know about us</a></h4>
                                         </dd>
-                                        <p>Our dev team creates the design and implement it in a way that best suits our client requirements.</p>
-                                        <a href="#" class="read_m"><span>Read More</span> <span class="direct_btn"><i class="moon-arrow-right-2"></i></span></a></dl>
+                                        <p>Driven by high moral values and ethics, <span class="companySmallHighlight"></span> is a web development company in Mumbai which nurtures your website</p>
+                                        <a href="about" class="read_m"><span>Read More</span> <span class="direct_btn"><i class="moon-arrow-right-2"></i></span></a></dl>
                                 </div>
 
                                 <div class="span4 services_small">
                                     <dl class="dl-horizontal">
                                         <dt><span class="no_circle"><i class="moon-mobile-2 icon "></i></span></dt>
                                         <dd class="with_icon">
-                                            <h4 class="with_icon"><a href="#">Conception & Analysis</a></h4>
+                                            <h4 class="with_icon"><a href="services">services we offer</a></h4>
                                         </dd>
-                                        <p>We thoroughly analyse the requirement of our client and provide them with a conceptual plan.</p>
-                                        <a href="#" class="read_m"><span>Read More</span> <span class="direct_btn"><i class="moon-arrow-right-2"></i></span></a></dl>
+                                        <p>We minister to a range of needs, starting from websites, applications, mobile and e-commerce.</p>
+                                        <a href="services" class="read_m"><span>Read More</span> <span class="direct_btn"><i class="moon-arrow-right-2"></i></span></a></dl>
                                 </div>
 
                                 <div class="span4 services_small">
                                     <dl class="dl-horizontal">
-                                        <dt><span class="no_circle"><i class="moon-align-left icon "></i></span></dt>
+                                        <dt><span class="no_circle"><i class="moon-paypal"></i></span></dt>
                                         <dd class="with_icon">
-                                            <h4 class="with_icon"><a href="#">Support & Updates</a></h4>
+                                            <h4 class="with_icon"><a href="pricing">Incredible prices</a></h4>
                                         </dd>
-                                        <p>Our fanatical support helps our client in the long run. Support is being there and assisting where we can</p>
-                                        <a href="#" class="read_m"><span>Read More</span> <span class="direct_btn"><i class="moon-arrow-right-2"></i></span></a></dl>
+                                        <p>We offer best price for highly advance and effecient application</p>
+                                        <a href="pricing" class="read_m"><span>Read More</span> <span class="direct_btn"><i class="moon-arrow-right-2"></i></span></a></dl>
                                 </div>
 
                             </div>
@@ -193,28 +193,28 @@
                                         <div class="row-fluid">
 
                                             <div class="span6 media media_el animate_onoffset">
-                                                <img src="content/images/all/09/the7-ipad11.png" alt="" class="type_image media_animation animation_bottom alignment_left" /></div>
+                                                <img src="content/images/all/09/the7-ipad11.png" alt="" class="type_image media_animation animation_bottom alignment_left start_animation" /></div>
 
                                             <div class="span6 services_list">
                                                 <dl class="dl-horizontal">
                                                     <dt><i class="moon-mobile"></i></dt>
                                                     <dd>
-                                                        <h4>Retina</h4>
-                                                        <p>This theme has a great feature: Page Builder. Save your time and create a lot of templates. Nunc et rutrum consetetur sadipscing dolor elitr, sed diam nonumy lore at volutpat</p>
-                                                    </dd>
-                                                    <span class="border_"></span></dl>
-                                                <dl class="dl-horizontal">
-                                                    <dt><i class="moon-align-left"></i></dt>
-                                                    <dd>
-                                                        <h4>Page Builder</h4>
-                                                        <p>This theme has a great feature: Page Builder. Save your time and create a lot of templates. Nunc et rutrum consetetur sadipscing dolor elitr, sed diam nonumy lore at volutpat</p>
+                                                        <h4>Conception & Analysis</h4>
+                                                        <p>We thoroughly analyse the requirement of our client and provide them with a conceptual plan.</p>
                                                     </dd>
                                                     <span class="border_"></span></dl>
                                                 <dl class="dl-horizontal">
                                                     <dt><i class="moon-brush"></i></dt>
                                                     <dd>
-                                                        <h4>Theme Options</h4>
-                                                        <p>This theme has a great feature: Page Builder. Save your time and create a lot of templates. Nunc et rutrum consetetur sadipscing dolor elitr, sed diam nonumy lore at volutpat</p>
+                                                        <h4>Design & Implement</h4>
+                                                        <p>Our dev team creates the design and implement it in a way that best suits our client requirements.</p>
+                                                    </dd>
+                                                    <span class="border_"></span></dl>
+                                                <dl class="dl-horizontal">
+                                                    <dt><i class="moon-user"></i></dt>
+                                                    <dd>
+                                                        <h4>Support & Updates</h4>
+                                                        <p>Our fanatical support helps our client in the long run. Support is being there and assisting where we can.</p>
                                                     </dd>
                                                     <span class="border_"></span></dl>
                                             </div>
@@ -238,276 +238,7 @@
                             <div class="row-fluid">
 
                                 <div class="span12 plain_text alignment_center">
-                                    <h1 class="big_title" style="color: #555;"><span style="font-weight: 300; font-size: 28px; color: #888;">
-                                        <br />
-                                        We will share some tips on how to best prepare for the <span style="color: #009dcd; font-weight: bold; font-size: inherit;">upcoming</span> release.</span></h1>
-                                    <p class="content" style="color: #969ba2;"></p>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row-fluid row-dynamic-el " style="">
-
-                        <div class="container">
-
-                            <div class="row-fluid">
-
-                                <div class="span4 plain_text alignment_left">
-                                    <p class="content" style="color: #969ba2;">
-                                        <span class="dropcast square" style="background: #009dcd; color: #fff!important">T</span>he amazing page builder visualizes the process o. The amazing page builder visualizes the process of dscds.
-  The amazing page builder visualizes the process o. The amazing page builder visualizes the process of dscds.The amazing page builder visualizes the process o. The amazing page builder visualizes the process of dscds.Proin iaculis purus consequat sem cursus digni ssim. Donec porttitor entume suscipit.Nsequat sem cursus digni ssim. Donec porttitor entume suscipit The amazing page builder visualizes the process of dscds.
-                                    </p>
-                                </div>
-
-                                <div class="span4 plain_text alignment_left">
-                                    <p class="content" style="color: #969ba2;">
-                                        The amazing page builder visualizes the process o. The amazing page builder visualizes the process of dscds.
-  The amazing page builder visualizes the process o. The amazing page builder visualizes the process of dscds.The amazing page builder visualizes the process o. The amazing page builder visualizes the process of dscds.Proin iaculis purus consequat sem cursus digni ssim. Donec porttitor entume suscipit.Nsequat sem cursus digni ssim. Donec porttitor entume suscipit The amazing page builder visualizes the process of dscds.
-                                    </p>
-                                </div>
-
-                                <div class="span4">
-                                    <div class="accordion " id="accordion2015368896">
-                                        <div class="accordion-group">
-                                            <div class="accordion-heading in_head"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2015368896" href="#toggle35203">Retina</a></div>
-                                            <div id="toggle35203" class="accordion-body in collapse ">
-                                                <div class="accordion-inner">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-group">
-                                            <div class="accordion-heading "><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2015368896" href="#toggle12144">Page Builder</a></div>
-                                            <div id="toggle12144" class="accordion-body  collapse ">
-                                                <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-group">
-                                            <div class="accordion-heading "><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2015368896" href="#toggle6440">Theme Options</a></div>
-                                            <div id="toggle6440" class="accordion-body  collapse ">
-                                                <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row-fluid row-dynamic-el section-style" style="background-color: #2F373F;">
-
-                        <div class="container">
-
-                            <div class="row-fluid">
-
-                                <div class="row-fluid row-dynamic-el " style="">
-
-                                    <div class="container">
-
-                                        <div class="row-fluid">
-
-                                            <div class="span12 plain_text alignment_center">
-                                                <h1 class="big_title" style="color: #555;"><span style="font-weight: 300; font-size: 28px; color: #fff;">Create your outstanding, <span style="color: #009dcd; font-weight: bold; font-size: inherit;">clean and  high quality</span> website.</span></h1>
-                                                <p class="content" style="color: #969ba2;"></p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="row-fluid row-dynamic-el " style="">
-
-                                    <div class="container">
-
-                                        <div class="row-fluid">
-
-                                            <div class="span12 media media_el animate_onoffset">
-                                                <iframe src="http://player.vimeo.com/video/69700933" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row-fluid row-dynamic-el " style="">
-
-                        <div class="container">
-
-                            <div class="row-fluid">
-
-                                <div class="span12 plain_text alignment_center">
-                                    <h1 class="big_title" style="color: #555;"><span style="font-weight: 300; font-size: 28px; color: #888;">What our <span style="color: #009dcd; font-weight: bold; font-size: inherit;">clients</span> say.</span></h1>
-                                    <p class="content" style="color: #969ba2;"></p>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row-fluid row-dynamic-el " style="">
-
-                        <div class="container">
-
-                            <div class="row-fluid">
-
-                                <div class="span4">
-                                    <div class="row-fluid">
-                                        <div class="single_testimonial">
-                                            <div class="content"><span class="title">Ludjon Roshi</span>Nunc et rutrum consetetur sadipscing dolor elitr, sed diam nonumy lore at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integercommodo tristique odio, quis fringilla ligula aliquet. Sed consectetur suscipit lorem nunc.adipiscing elit.<div class="stars"><i class="moon-star colored"></i><i class="moon-star colored"></i><i class="moon-star colored"></i><i class="moon-star colored"></i><i class="moon-star"></i></div>
-                                                <span class="comment-arrow"></span></div>
-                                            <div class="user">
-                                                <img src="content/images/all/07/6678553853_a06dab1cd9_b-168x165.jpg" alt="" /><h5>Ludjon Roshi</h5>
-                                                <span>CEO & Developer</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="span4">
-                                    <div class="row-fluid">
-                                        <div class="single_testimonial">
-                                            <div class="content"><span class="title">Ludjon Roshi</span>Nunc et rutrum consetetur sadipscing dolor elitr, sed diam nonumy lore at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integercommodo tristique odio, quis fringilla ligula aliquet. Sed consectetur suscipit lorem nunc.adipiscing elit.<div class="stars"><i class="moon-star colored"></i><i class="moon-star colored"></i><i class="moon-star colored"></i><i class="moon-star colored"></i><i class="moon-star"></i></div>
-                                                <span class="comment-arrow"></span></div>
-                                            <div class="user">
-                                                <img src="content/images/all/07/6678553853_a06dab1cd9_b-168x165.jpg" alt="" /><h5>Ludjon Roshi</h5>
-                                                <span>CEO & Developer</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="span4">
-                                    <div class="row-fluid">
-                                        <div class="single_testimonial">
-                                            <div class="content"><span class="title">Ludjon Roshi</span>Nunc et rutrum consetetur sadipscing dolor elitr, sed diam nonumy lore at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integercommodo tristique odio, quis fringilla ligula aliquet. Sed consectetur suscipit lorem nunc.adipiscing elit.<div class="stars"><i class="moon-star colored"></i><i class="moon-star colored"></i><i class="moon-star colored"></i><i class="moon-star colored"></i><i class="moon-star"></i></div>
-                                                <span class="comment-arrow"></span></div>
-                                            <div class="user">
-                                                <img src="content/images/all/07/6678553853_a06dab1cd9_b-168x165.jpg" alt="" /><h5>Ludjon Roshi</h5>
-                                                <span>CEO & Developer</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row-fluid row-dynamic-el section-style" style="background-color: #f7f7f7;">
-
-                        <div class="container">
-
-                            <div class="row-fluid">
-
-                                <div class="row-fluid row-dynamic-el " style="">
-
-                                    <div class="container">
-
-                                        <div class="row-fluid">
-
-                                            <div class="span12 plain_text alignment_center">
-                                                <h1 class="big_title" style="color: #555;"><span style="font-weight: 300; font-size: 28px; color: #888;">We love our great <span style="color: #009dcd; font-weight: bold; font-size: inherit;">clients</span>.</span></h1>
-                                                <p class="content" style="color: #969ba2;"></p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="row-fluid row-dynamic-el " style="">
-
-                                    <div class="container">
-
-                                        <div class="row-fluid">
-
-                                            <div class="span12">
-                                                <div class="header">
-                                                    <dl class="dl-horizontal">
-                                                        <dt><i class="moon-star"></i></dt>
-                                                        <dd style="margin-left: 55px !important; margin-top: 10px;">
-                                                            <h4>Clients</h4>
-                                                        </dd>
-                                                    </dl>
-                                                </div>
-                                                <section class="row-fluid clients">
-                                                    <div class="item">
-                                                        <a href="#">
-                                                            <img src="content/images/all/07/clogo5-140x60.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="item">
-                                                        <a href="http://">
-                                                            <img src="content/images/all/07/clogo44-107x60.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="item">
-                                                        <a href="http://">
-                                                            <img src="content/images/all/07/clogo33-61x60.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="item">
-                                                        <a href="#">
-                                                            <img src="content/images/all/07/clogo66-132x60.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="item">
-                                                        <a href="#">
-                                                            <img src="content/images/all/07/clogo5-140x60.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="item">
-                                                        <a href="#">
-                                                            <img src="content/images/all/07/clogo66-132x60.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="item">
-                                                        <a href="#">
-                                                            <img src="content/images/all/07/clogo5-140x60.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                </section>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row-fluid row-dynamic-el " style="">
-
-                        <div class="container">
-
-                            <div class="row-fluid">
-
-                                <div class="span12 plain_text alignment_center">
-                                    <h1 class="big_title" style="color: #555;"><span style="font-weight: 300; font-size: 28px; color: #888;">Read our latest <span style="color: #009dcd; font-weight: bold; font-size: inherit;">news</span> and get inspired ! </span></h1>
+                                    <h1 class="big_title" style="color: #555;"><span style="font-weight: 300; font-size: 28px; color: #888;">Know about our latest <span style="color: #009dcd; font-weight: bold; font-size: inherit;">work</span></span></h1>
                                     <p class="content" style="color: #969ba2;"></p>
                                 </div>
 
@@ -528,7 +259,7 @@
                                         <dl class="dl-horizontal">
                                             <dt><i class="moon-reading"></i></dt>
                                             <dd style="margin-left: 55px !important; margin-top: 10px;">
-                                                <h4>Recent News</h4>
+                                                <h4>Recent Work</h4>
                                             </dd>
                                         </dl>
                                     </div>
@@ -536,34 +267,34 @@
                                         <div class="span12 latest_blog_effect">
                                             <div class="blog-article  active">
                                                 <div class="media">
-                                                    <img src="content/images/all/07/barnangsHD_03_720p_-960x540-540x350.jpg" alt=""></div>
+                                                    <img src="Images/portfolio/pf-12.jpg" alt=""></div>
                                                 <dl class="">
-                                                    <dt>Sep.11, all</dt>
+                                                    <dt>ERP</dt>
                                                     <dd>
-                                                        <h6><a href="indexcaf0.html">Featured Image Post</a></h6>
-                                                        <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula feugiat blandit. Nulla facilisi. Nulla tellus...        </div>
+                                                        <h6><a href="portfolio">Content Management System</a></h6>
+                                                        <div class="blog-content">Software for managing reports of auditing firms</div>
                                                     </dd>
                                                 </dl>
                                             </div>
                                             <div class="blog-article  ">
                                                 <div class="media">
-                                                    <img src="content/images/all/07/photo211-825x550-540x350.jpg" alt=""></div>
+                                                    <img src="Images/portfolio/pf-11.jpg" alt=""></div>
                                                 <dl class="">
-                                                    <dt>Sep.11, all</dt>
+                                                    <dt>ERP</dt>
                                                     <dd>
-                                                        <h6><a href="index57e7.html">Another Standart Post</a></h6>
-                                                        <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula feugiat blandit. Nulla facilisi. Nulla tellus...        </div>
+                                                        <h6><a href="portfolio">Confusion</a></h6>
+                                                        <div class="blog-content">Dashboard for maintaining accessories record.</div>
                                                     </dd>
                                                 </dl>
                                             </div>
                                             <div class="blog-article  ">
                                                 <div class="media">
-                                                    <img src="content/images/all/07/shutterstock_82478056-960x430-1-540x350.jpg" alt=""></div>
+                                                    <img src="Images/portfolio/pf-1.jpg" alt=""></div>
                                                 <dl class="">
-                                                    <dt>Jul.23, all</dt>
+                                                    <dt>E-Commerce</dt>
                                                     <dd>
-                                                        <h6><a href="index4837.html">Standart Post</a></h6>
-                                                        <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula feugiat blandit. Nulla facilisi. Nulla tellus...        </div>
+                                                        <h6><a href="portfolio">ChaiChai</a></h6>
+                                                        <div class="blog-content">Online portal for selling tea products.</div>
                                                     </dd>
                                                 </dl>
                                             </div>
@@ -590,7 +321,9 @@
                                         <div class="row-fluid">
 
                                             <div class="span9 plain_text alignment_left">
-                                                <h1 class="big_title" style="color: #555;"><span style="font-size: 28px; color: #555;"><span style="color: #009dcd; font-weight: bold; font-size: inherit;">Maximus.</span> Business has two functions - marketing & innovation</span></h1>
+                                                <h1 class="big_title" style="color: #555;"><span style="font-size: 28px; color: #555;">
+                                                                                               <span style="color: #009dcd; font-weight: bold; font-size: inherit;">ARTechnic</span> Business has two functions - marketing & innovation
+                                                                                           </span></h1>
                                                 <p class="content" style="color: #969ba2;"></p>
                                             </div>
 
