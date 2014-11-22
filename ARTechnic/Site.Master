@@ -25,6 +25,7 @@
 </head>
 <body class="page page-id-163 page-template-default header_2">
     <form runat="server">
+        <asp:HiddenField runat="server" ID="companyName" ClientIDMode="Static"/>
         <div class="top_nav">
             <div class="container">
                 <div class="row-fluid">

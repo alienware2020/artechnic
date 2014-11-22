@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Security;
@@ -68,6 +69,8 @@ namespace ARTechnic
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            var artechnic = ConfigurationManager.AppSettings["artechnic"];
+            companyName.Value = artechnic;
         }
 
         protected void lnkbtnWebDevelopment_Click(object sender, EventArgs e)

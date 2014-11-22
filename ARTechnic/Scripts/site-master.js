@@ -54,7 +54,11 @@
     default:
         currentLink = "home";
     }
-    
+
+    $(".company").text($("#companyName").val());
+    $(".companyHighlight").text($("#companyName").val());
+    $(".companySmall").text($("#companyName").val());
+    $(".companySmallHighlight").text($("#companyName").val());
     $("#navigation li").removeClass("current-menu-item").removeClass("current_page_item");
     $("#navigation").find("#" + currentLink).addClass("current-menu-item").addClass("current_page_item");
 
@@ -81,37 +85,44 @@
     });
 
     $("#services .sub-menu li").click(function() {
+        var currentService = "";
         if (currentPath.search("service") == 1) {
             var serviceName = "";
             var id = $(this).find("a").attr("id").toLowerCase();
             if (id.search("web") > 0) {
                 serviceName = "webDevelopment";
+                currentService = "linkWebsiteDevelopment";
             }
             if (id.search("mobile") > 0) {
                 serviceName = "mobileDevelopment";
+                currentService = "linkMobileDevelopment";
             }
             if (id.search("software") > 0) {
                 serviceName = "softwareDevelopment";
+                currentService = "linkSoftwareDevelopment";
             }
             if (id.search("ecommerce") > 0) {
                 serviceName = "eCommerce";
+                currentService = "linkECommerce";
             }
-            enableServiceContent("#" + serviceName);
+            enableServiceContent("#" + serviceName, $("#" + currentService));
             return false;
         }
     });
 
     $("#linkWebsiteDevelopment").click(function () {
-        enableServiceContent("#webDevelopment");
+        enableServiceContent("#webDevelopment", "#linkWebsiteDevelopment");
+        
+
     });
     $("#linkMobileDevelopment").click(function () {
-        enableServiceContent("#mobileDevelopment");
+        enableServiceContent("#mobileDevelopment", "#linkMobileDevelopment");
     });
     $("#linkSoftwareDevelopment").click(function () {
-        enableServiceContent("#softwareDevelopment");
+        enableServiceContent("#softwareDevelopment", "#linkSoftwareDevelopment");
     });
     $("#linkECommerce").click(function () {
-        enableServiceContent("#eCommerce");
+        enableServiceContent("#eCommerce", "#linkECommerce");
     });
 
     if (currentPath.search("service") == 1) {
@@ -120,10 +131,22 @@
     }
 });
 
-function enableServiceContent(serviceName) {
+function enableServiceContent(serviceName,currentService) {
     $("#servicesMainContent").find(".services_content").css("display", "none");
     $(serviceName).css("display", "block");
+    $(currentService).parent().find("li").not(currentService).css("border-right", "1px solid #e1e1e1").css("background-color", "#fbfbfb").css("color", "#777777");//.css("transition-duration", "0.4s");
+    $(currentService).css("border-right", "0px").css("background-color", "#ffffff").css("color", "#009dcd");
+    $(currentService).parent().find("li").not(currentService).hover(function () {
+        $(this).css("background-color", "#ffffff").css("color", "#009dcd");
+    },
+    function () {
+        $(this).css("background-color", "#fbfbfb").css("color", "#777777");
+    });
+    $(currentService).mouseout(function () {
+        $(this).css("background-color", "#ffffff").css("color", "#009dcd");
+    });
 }
+
 
 //function getParameterByName(name) {
 //    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
