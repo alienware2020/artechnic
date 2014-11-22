@@ -112,8 +112,6 @@
 
     $("#linkWebsiteDevelopment").click(function () {
         enableServiceContent("#webDevelopment", "#linkWebsiteDevelopment");
-        
-
     });
     $("#linkMobileDevelopment").click(function () {
         enableServiceContent("#mobileDevelopment", "#linkMobileDevelopment");
@@ -126,8 +124,21 @@
     });
 
     if (currentPath.search("service") == 1) {
-        var service = $("#hiddenServiceName").val();
-        enableServiceContent("#" + service);
+        var serviceName = $("#hiddenServiceName").val();
+        var currentService = "";
+        if (serviceName.toLowerCase().search("web")) {
+            currentService = "#linkWebsiteDevelopment";
+        }
+        else if (serviceName.toLowerCase().search("mobile")) {
+            currentService = "#linkMobileDevelopment";
+        }
+        else if (serviceName.toLowerCase().search("software")) {
+            currentService = "#linkSoftwareDevelopment";
+        }
+        else if (serviceName.toLowerCase().search("ecommerce")) {
+            currentService = "#linkECommerce";
+        }
+        enableServiceContent("#" + serviceName, currentService);
     }
 });
 

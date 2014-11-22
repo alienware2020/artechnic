@@ -31,7 +31,7 @@
                             <div class="row-fluid">
                                 <div class="span3">
                                     <ul class="side-nav">
-                                        <li><a href="#" title="Back to Parent Page">SERVICES</a></li>
+                                        <li class="serviceMenuTop">SERVICES</li>
                                         <li class="page_item" id="linkWebsiteDevelopment">Website Development<div class="nav_arrow"><i class="moon-arrow-right-2"></i></div>
                                         </li>
                                         <li class="page_item" id="linkMobileDevelopment">Mobile Website Development<div class="nav_arrow"><i class="moon-arrow-right-2"></i></div>
