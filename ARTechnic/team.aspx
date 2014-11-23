@@ -45,13 +45,13 @@
                                                     <a href="https://www.facebook.com/anilram25" target="_blank" title="Facebook">
                                                     <li class="facebook"></li>
                                                 </a>
-                                                <a href="#" target="_blank" title="Twitter">
+                                                <a href="#" title="Twitter">
                                                     <li class="twitter"></li>
                                                 </a>
-                                                <a href="https://plus.google.com/u/0/109499801886652572693" title="Google">
+                                                <a href="#" title="Google">
                                                     <li class="google-plus"></li>
                                                 </a>
-                                                <a href="#" target="_blank" title="Linkedin">
+                                                <a href="#" title="Linkedin">
                                                     <li class="linkedin"></li>
                                                 </a>
                                             </ul>
@@ -74,13 +74,13 @@
                                                 <a href="https://www.facebook.com/rajarajesh89" target="_blank" title="Facebook">
                                                     <li class="facebook"></li>
                                                 </a>
-                                                <a href="https://twitter.com/rajarajesh89" target="_blank" title="Twitter">
+                                                <a href="#" title="Twitter">
                                                     <li class="twitter"></li>
                                                 </a>
-                                                <a href="https://plus.google.com/u/0/101842292599415469398" target="_blank" title="Google">
+                                                <a href="#" title="Google">
                                                     <li class="google-plus"></li>
                                                 </a>
-                                                <a href="https://www.linkedin.com/profile/view?id=57974808&trk=nav_responsive_tab_profile" target="_blank" title="Linkedin">
+                                                <a href="#" title="Linkedin">
                                                     <li class="linkedin"></li>
                                                 </a>
                                                 <ul></ul>

@@ -160,4 +160,13 @@ function enableServiceContent(serviceName,currentService) {
         $(this).css("background-color", "#ffffff").css("color", "#009dcd");
     });
     $('html,body').animate({ scrollTop: 0 }, 'slow');
+    //window.scrollTo(0, 0);
 }
+
+
+//function getParameterByName(name) {
+//    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+//    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+//        results = regex.exec(location.search);
+//    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+//}
