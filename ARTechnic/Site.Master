@@ -11,16 +11,16 @@
     <!-- FONT BLOCK -->
 
     <!-- CSS BLOCK -->
-    <link rel="icon" href="~/Images/logo_ar.ico" />
-    <link rel='stylesheet' href='Style/bootstrap.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='Style/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='Style/bootstrap-responsive.css' type='text/css' media='all' />
-    
+    <%--<link rel="icon" href="~/Images/logo_ar.ico" />--%>
+    <link rel='stylesheet' href='~/Style/bootstrap.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='~/Style/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='~/Style/bootstrap-responsive.css' type='text/css' media='all' />
+
     <!-- CSS BLOCK -->
 
     <asp:PlaceHolder runat="server">
-         <%: Scripts.Render("~/bundles/scripts") %>
-         <%: Styles.Render("~/Content/styles") %>
+        <%: Scripts.Render("~/bundles/scripts") %>
+        <%: Styles.Render("~/Content/styles") %>
        
        
     </asp:PlaceHolder>
@@ -31,7 +31,7 @@
 </head>
 <body class="page page-id-163 page-template-default header_2">
     <form runat="server">
-        <asp:HiddenField runat="server" ID="companyName" ClientIDMode="Static"/>
+        <asp:HiddenField runat="server" ID="companyName" ClientIDMode="Static" />
         <div class="top_nav">
             <div class="container">
                 <div class="row-fluid">
@@ -59,7 +59,7 @@
                 <div class="row-fluid" style="padding-top: 15px; padding-bottom: 15px;">
                     <div class="span12">
                         <div id="logo" class="">
-                            <a href='Default.aspx'>
+                            <a href='Default'>
                                 <img alt="img" src="Content/images/ar-logo-full.png" /></a><span class="logo_desc"></span>
                         </div>
                         <div id="navigation" class="nav_top pull-right  ">
@@ -69,10 +69,14 @@
                                     </li>
                                     <li id="services"><a>Services</a>
                                         <ul class="sub-menu">
-                                            <li><asp:LinkButton runat="server" ID="lnkbtnWebDevelopment" OnClick="lnkbtnWebDevelopment_Click">Website Development</asp:LinkButton></li>
-                                            <li><asp:LinkButton runat="server" ID="lnkbtnMobileDevelopment" OnClick="lnkbtnMobileDevelopment_Click">Mobile Web Development</asp:LinkButton></li>
-                                            <li><asp:LinkButton runat="server" ID="lnkbtnSoftwareDevelopment" OnClick="lnkbtnSoftwareDevelopment_Click">Software Development</asp:LinkButton></li>
-                                            <li><asp:LinkButton runat="server" ID="lnkbtnECommerce" OnClick="lnkbtnECommerce_Click">E-Commerce</asp:LinkButton></li>
+                                            <li>
+                                                <asp:LinkButton runat="server" ID="lnkbtnWebDevelopment" OnClick="lnkbtnWebDevelopment_Click">Website Development</asp:LinkButton></li>
+                                            <li>
+                                                <asp:LinkButton runat="server" ID="lnkbtnMobileDevelopment" OnClick="lnkbtnMobileDevelopment_Click">Mobile Web Development</asp:LinkButton></li>
+                                            <li>
+                                                <asp:LinkButton runat="server" ID="lnkbtnSoftwareDevelopment" OnClick="lnkbtnSoftwareDevelopment_Click">Software Development</asp:LinkButton></li>
+                                            <li>
+                                                <asp:LinkButton runat="server" ID="lnkbtnECommerce" OnClick="lnkbtnECommerce_Click">E-Commerce</asp:LinkButton></li>
                                         </ul>
                                     </li>
                                     <li id="pricing"><a href="pricing">Pricing</a>
@@ -150,22 +154,22 @@
                             </div>
                             <div class="span3">
                                 <div id="recent-posts-2" class="widget widget_recent_entries">
-                                    <h6 class="widget-title"><span>Recent Posts</span></h6>
+                                    <h6 class="widget-title"><span>Quick Links</span></h6>
                                     <ul>
                                         <li>
-                                            <a href="indexcaf0.html">Featured Image Post</a>
+                                            <a href="Default">Home</a>
                                         </li>
                                         <li>
-                                            <a href="index57e7.html">Another Standart Post</a>
+                                            <a href="about">Know about us</a>
                                         </li>
                                         <li>
-                                            <a href="index4837.html">Standart Post</a>
+                                            <a href="services">Our services</a>
                                         </li>
                                         <li>
-                                            <a href="indexdd23.html">Audio Post</a>
+                                            <a href="pricing">Incredible price</a>
                                         </li>
                                         <li>
-                                            <a href="index1c4a.html">Gallery Post Type</a>
+                                            <a href="portfolio">Portfolio</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -201,7 +205,7 @@
                     <div class="container">
                         <div class="row-fluid">
                             <div class="span12">
-                                Copyright 2014. All Right Reserved  / ARTechnic Software Solutions                       
+                                Copyright 2014. All Rights Reserved  / ARTechnic Software Solutions                       
                                 <div class="pull-right">
                                     <ul class="footer_social_icons">
                                         <li class="youtube"><a href="#"><span></span></a></li>
