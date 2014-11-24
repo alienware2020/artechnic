@@ -203,6 +203,7 @@
     <Content Include="Content\images\all\10\6.jpg" />
     <Content Include="Content\images\all\10\slide_1_2.png" />
     <Content Include="Content\images\all\10\Untitled-1.jpg" />
+    <Content Include="Site.Mobile.Master" />
     <Content Include="Style\bootstrap-responsive.css" />
     <Content Include="Style\bootstrap.css" />
     <Content Include="Content\css\eldo.css" />
@@ -411,6 +412,7 @@
     <Content Include="Scripts\jquery-ui.min.js" />
     <Content Include="Scripts\site-master.js" />
     <Content Include="services.aspx" />
+    <Content Include="ViewSwitcher.ascx" />
     <Content Include="whyus.aspx" />
     <Content Include="Content\font\moon.eot" />
     <Content Include="Content\font\moon.ttf" />
@@ -426,12 +428,10 @@
     <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="team.aspx" />
-    <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\_references.js" />
-    <Content Include="Site.Mobile.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -544,7 +544,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>54658</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:61963/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
