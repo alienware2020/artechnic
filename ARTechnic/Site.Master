@@ -59,7 +59,7 @@
                 <div class="row-fluid" style="padding-top: 15px; padding-bottom: 15px;">
                     <div class="span12">
                         <div id="logo" class="">
-                            <a href='Default.aspx'>
+                            <a href='Default'>
                                 <img alt="img" src="Content/images/ar-logo-full.png" /></a><span class="logo_desc"></span>
                         </div>
                         <div id="navigation" class="nav_top pull-right  ">
@@ -150,22 +150,22 @@
                             </div>
                             <div class="span3">
                                 <div id="recent-posts-2" class="widget widget_recent_entries">
-                                    <h6 class="widget-title"><span>Recent Posts</span></h6>
+                                    <h6 class="widget-title"><span>Quick Links</span></h6>
                                     <ul>
                                         <li>
-                                            <a href="indexcaf0.html">Featured Image Post</a>
+                                            <a href="about">Know About Us</a>
                                         </li>
                                         <li>
-                                            <a href="index57e7.html">Another Standart Post</a>
+                                            <a href="services">Our Services</a>
                                         </li>
                                         <li>
-                                            <a href="index4837.html">Standart Post</a>
+                                            <a href="pricing">Incredible Prices</a>
                                         </li>
                                         <li>
-                                            <a href="indexdd23.html">Audio Post</a>
+                                            <a href="portfolio">Outstanding Portfolio</a>
                                         </li>
                                         <li>
-                                            <a href="index1c4a.html">Gallery Post Type</a>
+                                            <a href="Contact">Contact Us</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -220,4 +220,5 @@
         </div>
     </form>
 </body>
+    <div class="loader"></div>
 </html>

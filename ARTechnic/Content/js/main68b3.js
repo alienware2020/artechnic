@@ -37,12 +37,12 @@ $(function($) {
 				$el.css('padding-bottom', 15-st + 'px');
 				$('nav .menu > li').not('.sub-menu li').css('height', 50-st + 'px');		 
 				$el.css('padding-top', 15-st + 'px');
-				$logo.css('height', 46-(st*6/10));
+				$logo.css('height', 36-(st*6/10));
 			}else{
 				$el.css('padding-bottom', 0 + 'px');
 				$('nav .menu > li').not('.sub-menu li').css('height', 35 + 'px');			 
 				$el.css('padding-top', 0 + 'px');
-				$logo.css('height', 32);
+				$logo.css('height', 26);
 			}
 		
 		});

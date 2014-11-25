@@ -1,4 +1,7 @@
-﻿$(function() {
+﻿$(function () {
+    $(window).load(function() {
+        $(".loader").fadeOut("slow");
+    });
     var currentPath = $(location).attr("pathname").toLowerCase();
     var currentPage = currentPath.split("/")[currentPath.split("/").length - 1];
     var currentLink;
