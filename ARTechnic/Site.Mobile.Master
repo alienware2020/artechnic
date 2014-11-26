@@ -22,8 +22,6 @@
     <asp:PlaceHolder ID="PlaceHolder1" runat="server">
          <%: Scripts.Render("~/bundles/scripts") %>
          <%: Styles.Render("~/Content/styles") %>
-       
-       
     </asp:PlaceHolder>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -60,8 +58,8 @@
                 <div class="row-fluid" style="padding-top: 15px; padding-bottom: 15px;">
                     <div class="span12">
                         <div id="logo" class="">
-                            <a href='Default.aspx'>
-                                <img alt="img" src="Content/images/ar-logo-full.png" /></a><span class="logo_desc"></span>
+                            <a href='Default'>
+                                <img alt="img" src="Content/images/ar-logo-full.png" style="height:34px;"/></a><span class="logo_desc"></span>
                         </div>
                         <div id="navigation" class="nav_top pull-right  ">
                             <nav>
@@ -101,30 +99,7 @@
             <a href="#" class="scrollup">Scroll</a>
         </div>
         <div class="footer_wrapper">
-            <div class="top_footer">
-                <div class="container">
-                    <ul class='tweet_list' id='tweet_footer'>
-                        <li class="tweet">
-                            <h5>
-                                <img src="../../pbs.twimg.com/profile_images/3729890381/2db1f4696aabc35eb52568d6a49ef24b_normal.png">
-                                Collis @ Envato Stories travels to Indonesia! Watch the profile of Rizki <a class="twitter-link" href="http://twitter.com/r4prolution">@r4prolution</a> talented caricature Illustrator. <a href="https://t.co/alqbiZehDm" class="twitter-link">https://t.co/alqbiZehDm</a></h5>
-                        </li>
-                        <li class="tweet">
-                            <h5>
-                                <img src="../../pbs.twimg.com/profile_images/3729890381/2db1f4696aabc35eb52568d6a49ef24b_normal.png">
-                                Collis @ "You've never heard of this place, but it’s just been voted Australia’s coolest tech company" <a href="http://t.co/3v923I9NVd" class="twitter-link">http://t.co/3v923I9NVd</a></h5>
-                        </li>
-                        <li class="tweet">
-                            <h5>
-                                <img src="../../pbs.twimg.com/profile_images/3729890381/2db1f4696aabc35eb52568d6a49ef24b_normal.png">
-                                Collis @ Important changes to ThemeForest and CodeCanyon Item Support announced on Market Blog: <a href="http://t.co/Y8OgEKxdhT" class="twitter-link">http://t.co/Y8OgEKxdhT</a></h5>
-                        </li>
-                    </ul>
-                    <div class="pagination pull-right"><a href="#" class="back"><i class="moon-arrow-left"></i></a><a href="#" class="next"><i class="moon-arrow-right-2"></i></a></div>
-                    <span class="shadow_top_footer"></span>
-                </div>
-            </div>
-
+            
             <footer id="footer">
                 <div class="inner">
                     <div class="container">
@@ -134,39 +109,31 @@
 
                                 <div id="text-2" class="widget widget_text">
                                     <div class="textwidget">
-                                        <img src="Content/images/ar-logo-full-w.png" height="33px !important" />
+                                        <img src="Content/images/ar-logo-full-w.png" height="34px" />
                                         <br />
                                         <br />
-                                        Proin iaculis purus consequat sem cursus digni ssim. Donec porttitor entume suscipit..Nsequat sem cursus digni ssim. Donec porttitor entume suscipit
+                                        Driven by high moral values and ethics, ARTechnic Software Solutions is a web development company which nurtures your website.
                                     </div>
                                 </div>
-                                <%-- <div id="search-4" class="widget widget_search">
-                                    <form action="#" id="search-form">
-                                        <div class="input-append">
-                                            <input type="text" size="16" placeholder="Search&hellip;" name="s" id="s">
-                                            <button type="submit" class="more">Search</button>
-                                        </div>
-                                    </form>
-                                </div>--%>
                             </div>
                             <div class="span3">
                                 <div id="recent-posts-2" class="widget widget_recent_entries">
-                                    <h6 class="widget-title"><span>Recent Posts</span></h6>
+                                    <h6 class="widget-title"><span>Quick Links</span></h6>
                                     <ul>
                                         <li>
-                                            <a href="indexcaf0.html">Featured Image Post</a>
+                                            <a href="about">Know About Us</a>
                                         </li>
                                         <li>
-                                            <a href="index57e7.html">Another Standart Post</a>
+                                            <a href="services">Our Services</a>
                                         </li>
                                         <li>
-                                            <a href="index4837.html">Standart Post</a>
+                                            <a href="pricing">Incredible Prices</a>
                                         </li>
                                         <li>
-                                            <a href="indexdd23.html">Audio Post</a>
+                                            <a href="portfolio">Outstanding Portfolio</a>
                                         </li>
                                         <li>
-                                            <a href="index1c4a.html">Gallery Post Type</a>
+                                            <a href="Contact">Contact Us</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -202,12 +169,12 @@
                     <div class="container">
                         <div class="row-fluid">
                             <div class="span12">
-                                Copyright 2014. All Right Reserved  / ARTechnic Software Solutions                       
+                                Copyright 2014. All Rights Reserved  / ARTechnic Software Solutions                       
                                 <div class="pull-right">
                                     <ul class="footer_social_icons">
-                                        <li class="youtube"><a href="#"><span></span></a></li>
-                                        <li class="twitter"><a href="https://twitter.com/ARTechnic"><span></span></a></li>
-                                        <li class="facebook"><a href="https://www.facebook.com/pages/ARTechnic/311388139056596"><span></span></a></li>
+                                        <li class="youtube"><a href="https://www.youtube.com/channel/UCfExQdEEML2ZkJ4PpPWMdVg" target="_blank"><span></span></a></li>
+                                        <li class="twitter"><a href="https://twitter.com/ARTechnic" target="_blank"><span></span></a></li>
+                                        <li class="facebook"><a href="https://www.facebook.com/pages/ARTechnic/311388139056596" target="_blank"><span></span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -220,5 +187,7 @@
             </footer>
         </div>
     </form>
+    
 </body>
+    <div class="loader"></div>
 </html>

@@ -58,7 +58,7 @@
                     <div class="span12">
                         <div id="logo" class="">
                             <a href='Default'>
-                                <img alt="img" src="Content/images/ar-logo-full.png" /></a><span class="logo_desc"></span>
+                                <img alt="img" src="Content/images/ar-logo-full.png" style="height:34px;"/></a><span class="logo_desc"></span>
                         </div>
                         <div id="navigation" class="nav_top pull-right  ">
                             <nav>
