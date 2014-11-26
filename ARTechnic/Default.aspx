@@ -1,6 +1,15 @@
 ﻿<%@ Page Title="Welcome to" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ARTechnic._Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <style type="text/css">
+        header#header .shadow {
+        display: block !important;
+        background: url('Content/img/big_shadow_full.png') center no-repeat;
+        width: 100%;
+        height: 81px;
+        position: absolute;
+    }
+    </style>
 </asp:Content>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">

@@ -1164,7 +1164,7 @@ footer .widget_search input[type="text"] {
             }
 
 header#header .shadow {
-    display: block;
+    display: none;
     background: url('../Content/img/big_shadow_full.png') center no-repeat;
     width: 100%;
     height: 81px;

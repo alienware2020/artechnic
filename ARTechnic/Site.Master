@@ -21,8 +21,6 @@
     <asp:PlaceHolder runat="server">
          <%: Scripts.Render("~/bundles/scripts") %>
          <%: Styles.Render("~/Content/styles") %>
-       
-       
     </asp:PlaceHolder>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -133,20 +131,12 @@
 
                                 <div id="text-2" class="widget widget_text">
                                     <div class="textwidget">
-                                        <img src="Content/images/ar-logo-full-w.png" height="33px !important" />
+                                        <img src="Content/images/ar-logo-full-w.png" height="34px" />
                                         <br />
                                         <br />
-                                        Proin iaculis purus consequat sem cursus digni ssim. Donec porttitor entume suscipit..Nsequat sem cursus digni ssim. Donec porttitor entume suscipit
+                                        Driven by high moral values and ethics, ARTechnic Software Solutions is a web development company which nurtures your website.
                                     </div>
                                 </div>
-                                <%-- <div id="search-4" class="widget widget_search">
-                                    <form action="#" id="search-form">
-                                        <div class="input-append">
-                                            <input type="text" size="16" placeholder="Search&hellip;" name="s" id="s">
-                                            <button type="submit" class="more">Search</button>
-                                        </div>
-                                    </form>
-                                </div>--%>
                             </div>
                             <div class="span3">
                                 <div id="recent-posts-2" class="widget widget_recent_entries">
@@ -201,12 +191,12 @@
                     <div class="container">
                         <div class="row-fluid">
                             <div class="span12">
-                                Copyright 2014. All Right Reserved  / ARTechnic Software Solutions                       
+                                Copyright 2014. All Rights Reserved  / ARTechnic Software Solutions                       
                                 <div class="pull-right">
                                     <ul class="footer_social_icons">
-                                        <li class="youtube"><a href="#"><span></span></a></li>
-                                        <li class="twitter"><a href="https://twitter.com/ARTechnic"><span></span></a></li>
-                                        <li class="facebook"><a href="https://www.facebook.com/pages/ARTechnic/311388139056596"><span></span></a></li>
+                                        <li class="youtube"><a href="https://www.youtube.com/channel/UCfExQdEEML2ZkJ4PpPWMdVg" target="_blank"><span></span></a></li>
+                                        <li class="twitter"><a href="https://twitter.com/ARTechnic" target="_blank"><span></span></a></li>
+                                        <li class="facebook"><a href="https://www.facebook.com/pages/ARTechnic/311388139056596" target="_blank"><span></span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -219,6 +209,7 @@
             </footer>
         </div>
     </form>
+    
 </body>
     <div class="loader"></div>
 </html>
