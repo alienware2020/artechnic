@@ -98,30 +98,7 @@
             <a href="#" class="scrollup">Scroll</a>
         </div>
         <div class="footer_wrapper">
-            <div class="top_footer">
-                <div class="container">
-                    <ul class='tweet_list' id='tweet_footer'>
-                        <li class="tweet">
-                            <h5>
-                                <img src="../../pbs.twimg.com/profile_images/3729890381/2db1f4696aabc35eb52568d6a49ef24b_normal.png">
-                                Collis @ Envato Stories travels to Indonesia! Watch the profile of Rizki <a class="twitter-link" href="http://twitter.com/r4prolution">@r4prolution</a> talented caricature Illustrator. <a href="https://t.co/alqbiZehDm" class="twitter-link">https://t.co/alqbiZehDm</a></h5>
-                        </li>
-                        <li class="tweet">
-                            <h5>
-                                <img src="../../pbs.twimg.com/profile_images/3729890381/2db1f4696aabc35eb52568d6a49ef24b_normal.png">
-                                Collis @ "You've never heard of this place, but itâ€™s just been voted Australiaâ€™s coolest tech company" <a href="http://t.co/3v923I9NVd" class="twitter-link">http://t.co/3v923I9NVd</a></h5>
-                        </li>
-                        <li class="tweet">
-                            <h5>
-                                <img src="../../pbs.twimg.com/profile_images/3729890381/2db1f4696aabc35eb52568d6a49ef24b_normal.png">
-                                Collis @ Important changes to ThemeForest and CodeCanyon Item Support announced on Market Blog: <a href="http://t.co/Y8OgEKxdhT" class="twitter-link">http://t.co/Y8OgEKxdhT</a></h5>
-                        </li>
-                    </ul>
-                    <div class="pagination pull-right"><a href="#" class="back"><i class="moon-arrow-left"></i></a><a href="#" class="next"><i class="moon-arrow-right-2"></i></a></div>
-                    <span class="shadow_top_footer"></span>
-                </div>
-            </div>
-
+            
             <footer id="footer">
                 <div class="inner">
                     <div class="container">
