@@ -15,8 +15,8 @@
 
                     <ul class="page_parents pull-right">
                         <li>You are here: </li>
-                        <li><a href="index.html">Home</a>/</li>
-                        <li><a href="index817c817c.html?page_id=412">Services</a></li>
+                        <li><a href="Default">Home</a>/</li>
+                        <li>Services</li>
                     </ul>
                 </div>
             </div>
