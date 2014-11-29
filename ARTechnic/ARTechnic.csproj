@@ -96,6 +96,12 @@
     <Content Include="Content\images\all\09\theme-options-smaller-ok.png" />
     <Content Include="Content\images\all\10\Untitled-1.jpg" />
     <Content Include="Content\images\page-loader.gif" />
+    <Content Include="Images\recent\rw1.png" />
+    <Content Include="Images\recent\rw2.png" />
+    <Content Include="Images\recent\rw3.png" />
+    <Content Include="Images\recent\rw4.png" />
+    <Content Include="Images\recent\rw5.png" />
+    <Content Include="Images\recent\rw6.png" />
     <Content Include="Site.Mobile.Master" />
     <Content Include="Style\bootstrap-responsive.css" />
     <Content Include="Style\bootstrap.css" />
