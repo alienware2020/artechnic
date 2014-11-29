@@ -1,7 +1,17 @@
 ﻿$(function () {
-    $(window).load(function() {
-        $(".loader").fadeOut("slow");
-    });
+    var hasLoaded = false;
+    for (var i = 0; i < 10; i++) {
+        $("#typed").animate({ width: "531px" }, 9000);
+        $("#typed").animate({ width: "0px" }, 1);
+    }
+        
+        $(window).load(function () {
+            $(".loader").css("display", "none");
+            hasLoaded = true;
+        });
+    
+    
+    
     var currentPath = $(location).attr("pathname").toLowerCase();
     var currentPage = currentPath.split("/")[currentPath.split("/").length - 1];
     var currentLink;
@@ -146,6 +156,7 @@
         }
         enableServiceContent("#" + serviceName, currentService);
     }
+
 });
 
 function enableServiceContent(serviceName,currentService) {
@@ -165,11 +176,3 @@ function enableServiceContent(serviceName,currentService) {
     $('html,body').animate({ scrollTop: 0 }, 'slow');
     //window.scrollTo(0, 0);
 }
-
-
-//function getParameterByName(name) {
-//    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-//    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-//        results = regex.exec(location.search);
-//    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-//}

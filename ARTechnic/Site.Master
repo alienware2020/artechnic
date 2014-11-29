@@ -15,12 +15,10 @@
     <link rel='stylesheet' href='Style/bootstrap.css' type='text/css' media='all' />
     <link rel='stylesheet' href='Style/style.css' type='text/css' media='all' />
     <link rel='stylesheet' href='Style/bootstrap-responsive.css' type='text/css' media='all' />
-    
     <!-- CSS BLOCK -->
-
     <asp:PlaceHolder runat="server">
-         <%: Scripts.Render("~/bundles/scripts") %>
-         <%: Styles.Render("~/Content/styles") %>
+        <%: Scripts.Render("~/bundles/scripts") %>
+        <%: Styles.Render("~/Content/styles") %>
     </asp:PlaceHolder>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -29,7 +27,7 @@
 </head>
 <body class="page page-id-163 page-template-default header_2">
     <form runat="server">
-        <asp:HiddenField runat="server" ID="companyName" ClientIDMode="Static"/>
+        <asp:HiddenField runat="server" ID="companyName" ClientIDMode="Static" />
         <div class="top_nav">
             <div class="container">
                 <div class="row-fluid">
@@ -58,7 +56,7 @@
                     <div class="span12">
                         <div id="logo" class="">
                             <a href='Default'>
-                                <img alt="img" src="Content/images/ar-logo-full.png" style="height:34px;"/></a><span class="logo_desc"></span>
+                                <img alt="img" src="Content/images/ar-logo-full.png" style="height: 34px;" /></a><span class="logo_desc"></span>
                         </div>
                         <div id="navigation" class="nav_top pull-right  ">
                             <nav>
@@ -67,10 +65,14 @@
                                     </li>
                                     <li id="services"><a>Services</a>
                                         <ul class="sub-menu">
-                                            <li><asp:LinkButton runat="server" ID="lnkbtnWebDevelopment" OnClick="lnkbtnWebDevelopment_Click">Website Development</asp:LinkButton></li>
-                                            <li><asp:LinkButton runat="server" ID="lnkbtnMobileDevelopment" OnClick="lnkbtnMobileDevelopment_Click">Mobile Web Development</asp:LinkButton></li>
-                                            <li><asp:LinkButton runat="server" ID="lnkbtnSoftwareDevelopment" OnClick="lnkbtnSoftwareDevelopment_Click">Software Development</asp:LinkButton></li>
-                                            <li><asp:LinkButton runat="server" ID="lnkbtnECommerce" OnClick="lnkbtnECommerce_Click">E-Commerce</asp:LinkButton></li>
+                                            <li>
+                                                <asp:LinkButton runat="server" ID="lnkbtnWebDevelopment" OnClick="lnkbtnWebDevelopment_Click">Website Development</asp:LinkButton></li>
+                                            <li>
+                                                <asp:LinkButton runat="server" ID="lnkbtnMobileDevelopment" OnClick="lnkbtnMobileDevelopment_Click">Mobile Web Development</asp:LinkButton></li>
+                                            <li>
+                                                <asp:LinkButton runat="server" ID="lnkbtnSoftwareDevelopment" OnClick="lnkbtnSoftwareDevelopment_Click">Software Development</asp:LinkButton></li>
+                                            <li>
+                                                <asp:LinkButton runat="server" ID="lnkbtnECommerce" OnClick="lnkbtnECommerce_Click">E-Commerce</asp:LinkButton></li>
                                         </ul>
                                     </li>
                                     <li id="pricing"><a href="pricing">Pricing</a>
@@ -98,7 +100,7 @@
             <a href="#" class="scrollup">Scroll</a>
         </div>
         <div class="footer_wrapper">
-            
+
             <footer id="footer">
                 <div class="inner">
                     <div class="container">
@@ -156,7 +158,6 @@
                                 <div id="widget_flickr-2" class="widget widget_flickr">
                                     <h6 class="widget-title"><span>Recent Works</span></h6>
                                     <div class="flickr_container">
-                                        
                                     </div>
                                 </div>
                             </div>
@@ -186,7 +187,9 @@
             </footer>
         </div>
     </form>
-    
 </body>
-    <div class="loader"></div>
+<div class="loader">
+    <div style="font-size: 80px; font-weight: 800; letter-spacing: 10px; text-shadow: 1px 1px 1px #1384d0; font-family: roboto; color: #ffffff; position: absolute; top: 50%; left: 50%; margin-top: -50px; margin-left: -270px; padding-top: 20px;">ARTECHNIC</div>
+    <div id="typed" style="font-size: 80px; font-weight: 800; letter-spacing: 10px; color: #1384d0; font-family: roboto; position: fixed; top: 50%; left: 50%; margin-top: -50px; margin-left: -270px; padding-top: 20px; height: 55px; overflow: hidden; width: 1px;">ARTECHNIC</div>
+</div>
 </html>
