@@ -1,6 +1,6 @@
 ﻿$(function () {
     var hasLoaded = false;
-    for (var i = 0; i < 2; i++) {
+    for (var i = 0; i < 10; i++) {
         $("#typed").animate({ width: "531px" }, 9000);
         $("#typed").animate({ width: "0px" }, 1);
     }
