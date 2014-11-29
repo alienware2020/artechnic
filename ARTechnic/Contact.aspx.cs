@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.Net.Mail;
+using System.Web.Services;
 using System.Web.UI;
 using MailMessage = System.Net.Mail.MailMessage;
 
@@ -10,19 +11,53 @@ namespace ARTechnic
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                contactFormResponse.Visible = false;
+                contactFormResponseError.Visible = false;
+            }
         }
 
         protected void btnSendmail_Click(object sender, EventArgs e)
         {
+            try
+            {
+                const string fromAddress = "artechnicsolutions@gmail.com";
+                var fromName = formName.Text;
+                var toAddress = formEmail.Text;
+                var content = formContent.Text;
+                const string fromPassword = "rajanil@2014";
+                var subject = formSubject.Text;
+                SentMailToClient(fromAddress, subject, content, toAddress, fromPassword);
+                SentMailToTeam(fromAddress, toAddress, fromPassword, fromName);
+                contactFormResponse.Visible = true;
+            }
+            catch (Exception)
+            {
+                contactFormResponseError.Visible = true;
+                throw;
+            }
+            finally
+            {
+                contactForm.Visible = false;
+            }
+        }
+        [WebMethod]
+        public static bool Sendmail(string name, string email, string subject, string content)
+        {
             const string fromAddress = "artechnicsolutions@gmail.com";
-            var fromName = formName.Text;
-            var toAddress = formEmail.Text;
-            var content = formContent.Text;
             const string fromPassword = "rajanil@2014";
-            var subject = formSubject.Text;
-            SentMailToClient(fromAddress, subject, content, toAddress, fromPassword);
-            SentMailToTeam(fromAddress, toAddress, fromPassword, fromName);
+            try
+            {
+                SentMailToClient(fromAddress, subject, content, email, fromPassword);
+                SentMailToTeam(fromAddress, email, fromPassword, name);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+           
         }
 
         private static void SentMailToClient(string fromAddress, string subject, string content, string toAddress, string fromPassword)

@@ -13,6 +13,15 @@ namespace ARTechnic {
     public partial class Contact {
         
         /// <summary>
+        /// contactForm control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel contactForm;
+        
+        /// <summary>
         /// formName control.
         /// </summary>
         /// <remarks>
@@ -56,5 +65,23 @@ namespace ARTechnic {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSendmail;
+        
+        /// <summary>
+        /// contactFormResponse control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel contactFormResponse;
+        
+        /// <summary>
+        /// contactFormResponseError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel contactFormResponseError;
     }
 }

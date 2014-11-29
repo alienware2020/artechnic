@@ -96,6 +96,7 @@
     <Content Include="Content\images\all\09\theme-options-smaller-ok.png" />
     <Content Include="Content\images\all\10\Untitled-1.jpg" />
     <Content Include="Content\images\page-loader.gif" />
+    <Content Include="Content\js\typed.js" />
     <Content Include="Site.Mobile.Master" />
     <Content Include="Style\bootstrap-responsive.css" />
     <Content Include="Style\bootstrap.css" />
@@ -120,7 +121,7 @@
     <Content Include="Content\fancybox\source\jquery.fancybox.css" />
     <Content Include="Content\fancybox\source\jquery.fancybox1c51.css" />
     <Content Include="Content\fancybox\source\jquery.fancybox68b3.js" />
-    <Content Include="Content\font\moon.svg" />
+    <Content Include="Content\css\font\moon.svg" />
     <Content Include="Content\images\anil_thumbnail.png" />
     <Content Include="Content\images\ar-logo-full-w.png" />
     <Content Include="Content\images\ar-logo-full.png" />
@@ -307,10 +308,10 @@
     <Content Include="services.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="whyus.aspx" />
-    <Content Include="Content\font\moon.eot" />
-    <Content Include="Content\font\moon.ttf" />
-    <Content Include="Content\font\moon.woff" />
-    <Content Include="Content\font\moond41dd41d.eot" />
+    <Content Include="Content\css\font\moon.eot" />
+    <Content Include="Content\css\font\moon.ttf" />
+    <Content Include="Content\css\font\moon.woff" />
+    <Content Include="Content\css\font\moond41dd41d.eot" />
     <None Include="Properties\PublishProfiles\artechnic.com.pubxml" />
     <None Include="Properties\PublishProfiles\ARTechnic.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
