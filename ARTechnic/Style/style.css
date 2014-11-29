@@ -9985,3 +9985,6 @@ submenu {
 	background:rgb(249,249,249);
 	/*background: url('../Content/Images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);*/
 }
+.recent-works img {
+    border: 4px solid #2f373f;
+}
