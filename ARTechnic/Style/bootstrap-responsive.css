@@ -77,6 +77,9 @@
  .page-template-leftnav-php .span3{width:20%;}
  .page-template-leftnav-php .span9{width:70%;}
  .page-template-leftnav-php .nav_arrow{margin-left:85px;}
+ .nav_arrow {
+        margin-left: 150px;
+    }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   .hidden-desktop {
@@ -859,7 +862,12 @@
  .boxed_layout{width:100%;}
  .boxed_layout header#header{width:100%;}
  .boxed_layout header#header.header_1, .boxed_layout header#header.header_2, .boxed_layout header#header.header_3, .boxed_layout header#header.header_4{width:100%;}
-
+ 
+ /* custom chnages*/
+ .nav_arrow {
+        display: none;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 767px) {
