@@ -195,7 +195,5 @@
     </form>
 </body>
 <div class="loader">
-    <%--<div style="font-size: 80px; font-weight: 800; letter-spacing: 10px; text-shadow: 1px 1px 1px #1384d0; font-family: roboto; color: #ffffff; position: absolute; top: 50%; left: 50%; margin-top: -50px; margin-left: -270px; padding-top: 20px;">ARTECHNIC</div>--%>
-    <%--<div id="typed" style="font-size: 80px; font-weight: 800; letter-spacing: 10px; color: #1384d0; font-family: roboto; position: fixed; top: 50%; left: 50%; margin-top: -50px; margin-left: -270px; padding-top: 20px; height: 55px; overflow: hidden; width: 1px;">ARTECHNIC</div>--%>
 </div>
 </html>

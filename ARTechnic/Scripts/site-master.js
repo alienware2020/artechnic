@@ -6,7 +6,7 @@
     }
         
         $(window).load(function () {
-            //$(".loader").css("display", "none");
+            $(".loader").css("display", "none");
             hasLoaded = true;
         });
     

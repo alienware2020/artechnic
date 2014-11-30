@@ -55,7 +55,7 @@
                                                     <div class="footer">
                                                         <p class="perspective">
                                                             <a class="custom_btn" id="btn_100" style="padding: 12px 31px; background: #009dcd; font-weight: bold; color: #fff; font-size: 14px; float: left;"
-                                                                href="#">Purchase Now</a>
+                                                                href="Contact">Purchase Now</a>
                                                         </p>
                                                         <style>
                                                             #btn_100:after {
@@ -84,7 +84,7 @@
                                                     <div class="footer">
                                                         <p class="perspective">
                                                             <a class="custom_btn" id="btn_50" style="padding: 12px 31px; background: #009dcd; font-weight: bold; color: #fff; font-size: 14px; float: left;"
-                                                                href="#">Purchase Now</a>
+                                                                href="Contact">Purchase Now</a>
                                                         </p>
                                                         <style>
                                                             #btn_50:after {
@@ -113,7 +113,7 @@
                                                     <div class="footer">
                                                         <p class="perspective">
                                                             <a class="custom_btn" id="btn_69" style="padding: 12px 31px; background: #009dcd; font-weight: bold; color: #fff; font-size: 14px; float: left;"
-                                                                href="#">Buy it Now</a>
+                                                                href="Contact">Purchase Now</a>
                                                         </p>
                                                         <style>
                                                             #btn_69:after {
@@ -140,7 +140,7 @@
                                                     <div class="footer">
                                                         <p class="perspective">
                                                             <a class="custom_btn" id="A1" style="padding: 12px 31px; background: #009dcd; font-weight: bold; color: #fff; font-size: 14px; float: left;"
-                                                                href="#">Purchase Now</a>
+                                                                href="Contact">Purchase Now</a>
                                                         </p>
                                                         <style>
                                                             #btn_100:after {
@@ -165,7 +165,7 @@
                                                     <div class="footer">
                                                         <p class="perspective">
                                                             <a class="custom_btn" id="A2" style="padding: 12px 31px; background: #009dcd; font-weight: bold; color: #fff; font-size: 14px; float: left;"
-                                                                href="#">Purchase Now</a>
+                                                                href="Contact">Purchase Now</a>
                                                         </p>
                                                         <style>
                                                             #btn_50:after {
@@ -190,7 +190,7 @@
                                                     <div class="footer">
                                                         <p class="perspective">
                                                             <a class="custom_btn" id="A3" style="padding: 12px 31px; background: #009dcd; font-weight: bold; color: #fff; font-size: 14px; float: left;"
-                                                                href="#">Buy it Now</a>
+                                                                href="Contact">Purchase Now</a>
                                                         </p>
                                                         <style>
                                                             #btn_69:after {
