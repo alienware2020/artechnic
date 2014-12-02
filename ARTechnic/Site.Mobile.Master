@@ -156,8 +156,13 @@
 
                                 <div id="widget_flickr-2" class="widget widget_flickr">
                                     <h6 class="widget-title"><span>Recent Works</span></h6>
-                                    <div class="flickr_container">
-                                        
+                                    <div class="recent-works">
+                                        <img src="Images/recent/rw1.png" />
+                                         <img src="Images/recent/rw2.png" />
+                                         <img src="Images/recent/rw3.png" /><br/>
+                                         <img src="Images/recent/rw4.png" />
+                                         <img src="Images/recent/rw5.png" />
+                                         <img src="Images/recent/rw6.png" />
                                     </div>
                                 </div>
                             </div>
