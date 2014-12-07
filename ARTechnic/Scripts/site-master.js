@@ -5,12 +5,10 @@
         $("#typed").animate({ width: "0px" }, 1);
     }
         
-        $(window).load(function () {
+    $(window).load(function () {
             $(".loader").css("display", "none");
             hasLoaded = true;
         });
-    
-    
     
     var currentPath = $(location).attr("pathname").toLowerCase();
     var currentPage = currentPath.split("/")[currentPath.split("/").length - 1];
@@ -157,6 +155,89 @@
         enableServiceContent("#" + serviceName, currentService);
     }
 
+    $(".purchase_button").off("click").on("click", function () {
+        $("#formName").val("");
+        $("#formName").css("border-color", "#ebebeb").css("background-color","#ffffff");
+        $("#formEmail").val("");
+        $("#formEmail").css("border-color", "#ebebeb").css("background-color", "#ffffff");
+        $("#formSubject").val("");
+        $("#formContent").val("");
+        $(".fancybox-overlay").css("display", "block");
+        $(".fancybox-overlay #contactForm").css("display", "block");
+        $(".fancybox-inner").css("height", "480px").css("padding-top", "0px");
+        var price = $(this).parents(".footer").siblings(".price").find("span").first().text();
+        var isResponsiveChecked = $(this).parents(".footer").siblings("ul").find("li div input[type=checkbox]:checked").first().length;
+        var packageName =$(".nav-tabs li.active a").text().toLowerCase() +" "+ $(this).parents(".footer").siblings(".title").first().text().toLowerCase();
+        $("#hdnPrice").val(price);
+        $("#hdnIsResponsive").val(isResponsiveChecked);
+        var responsiveText = isResponsiveChecked > 0 ? " with responsive design" : "";
+        var subject = "Interested in " + packageName + "" + responsiveText;
+        $("#formSubject").val(subject);
+        $("#formSubject").attr("readonly", true);
+        $("#formName").attr("readonly", false);
+        $("#formEmail").attr("readonly", false);
+        $("#formContent").attr("readonly", false);
+    });
+
+    $(".fancybox-inner #btnSendmail").off("click").on("click", function() {
+        var fromName = $("#formName").val();
+        var toAddress = $("#formEmail").val();
+        var subject = $("#formSubject").val();
+        var content = $("#formContent").val();
+        if (fromName == "") {
+            $("#formName").css("border-color", "#E61E1E");
+            $("#formName").focus();
+            return false;
+        } else {
+            $("#formName").css("border-color", "#ebebeb");
+        }
+        if (toAddress == "" || !IsEmail(toAddress)) {
+            $("#formEmail").css("border-color", "#E61E1E");
+            $("#formEmail").focus();
+            return false;
+        } else {
+            $("#formEmail").css("border-color", "#ebebeb");
+        }
+        $("#btnSendmail").prop("disabled", true);
+        $("#imgSendingMail").css("display", "inline-block");
+        $("#contactFormResponse").css("display", "none");
+        $("#contactFormResponseError").css("display", "none");
+        $("#formName").attr("readonly", true);
+        $("#formEmail").attr("readonly", true);
+        $("#formContent").attr("readonly", true);
+        $.ajax({
+            type: 'POST',
+            url: "pricing.aspx/btnSendMail",
+            data: "{fromName:'" + fromName + "',toAddress:'" + toAddress + "',content:'" + content + "',subject:'" + subject + "'}",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (request) {
+                $("#contactForm").fadeOut(400);
+                if (request.d == true) {
+                    $("#contactFormResponse").fadeIn(400);
+                }
+                else {
+                    $("#contactFormResponseError").fadeIn(400);
+                }
+                $("#imgSendingMail").css("display", "none");
+                $("#btnSendmail").prop("disabled", false);
+                $(".fancybox-inner").css("height", "120px").css("padding-top", "20px");
+            },
+            error: function (request, error) {
+                $("#contactForm").css("display","none");
+                $("#contactFormResponseError").fadeIn(10);
+                $("#imgSendingMail").css("display", "none");
+                $("#btnSendmail").prop("disabled", false);
+                $(".fancybox-inner").css("height", "120px").css("padding-top", "20px");
+            }
+        });
+        
+        return false;
+    });
+
+    $(".fancybox-close").off("click").on("click", function() {
+        $(".fancybox-overlay").css("display", "none");
+    });
 });
 
 function enableServiceContent(serviceName,currentService) {
@@ -175,4 +256,9 @@ function enableServiceContent(serviceName,currentService) {
     });
     $('html,body').animate({ scrollTop: 0 }, 'slow');
     //window.scrollTo(0, 0);
+}
+
+function IsEmail(email) {
+    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return regex.test(email);
 }

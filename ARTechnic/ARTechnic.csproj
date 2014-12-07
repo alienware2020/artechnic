@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.aspx" />
+    <Content Include="ConfirmationMail.html" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\css\background.html" />
     <Content Include="Content\css\bigplay.html" />
@@ -90,6 +91,17 @@
     <Content Include="Content\images\all\10\Untitled-1.jpg" />
     <Content Include="Content\images\page-loader.gif" />
     <Content Include="googlebad1f8d96fe89b66.html" />
+    <Content Include="Images\email\e-commerce.jpg" />
+    <Content Include="Images\email\email-icon.png" />
+    <Content Include="Images\email\feature-icon1.png" />
+    <Content Include="Images\email\feature-icon2.png" />
+    <Content Include="Images\email\feature-icon3.png" />
+    <Content Include="Images\email\icon.png" />
+    <Content Include="Images\email\loading.gif" />
+    <Content Include="Images\email\location-icon.png" />
+    <Content Include="Images\email\sending.gif" />
+    <Content Include="Images\email\software-development.jpg" />
+    <Content Include="Images\email\web-development.jpg" />
     <Content Include="Images\recent\rw1.png" />
     <Content Include="Images\recent\rw2.png" />
     <Content Include="Images\recent\rw3.png" />
@@ -436,7 +448,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54658</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
