@@ -24,11 +24,11 @@ namespace ARTechnic
         {
             try
             {
-                const string fromAddress = "rajesh@artechnic.in";//"artechnicsolutions@gmail.com";
+                const string fromAddress = "artechnicsolutions@gmail.com";
                 var fromName = formName.Text;
                 var toAddress = formEmail.Text;
                 var content = formContent.Text;
-                const string fromPassword = "BHU#1989";// "rajanil@2014";
+                const string fromPassword = "rajanil@2014";
                 var subject = formSubject.Text;
                 SentMailToClient(fromAddress, subject, toAddress, fromName, fromPassword);
                 SentMailToTeam(fromAddress, toAddress, fromPassword, fromName);
@@ -56,12 +56,12 @@ namespace ARTechnic
             message.Body = strContent;
             var smtp = new SmtpClient();
             {
-                smtp.Host = "artechnic.in";//artechnic.in
-                smtp.Port = 2525;//2525
-                smtp.EnableSsl = false;
+                smtp.Host = "smtp.gmail.com";
+                smtp.Port = 587;
+                smtp.EnableSsl = true;
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtp.Credentials = new NetworkCredential(fromAddress, fromPassword);
-                //smtp.Timeout = 20000;
+                smtp.Timeout = 20000;
             }
             smtp.Send(message);
         }
@@ -74,12 +74,12 @@ namespace ARTechnic
             message.Body = fromName + " has shown interest";
             var smtp = new SmtpClient();
             {
-                smtp.Host = "artechnic.in";//"smtp.gmail.com";
-                smtp.Port = 2525;// 587;
-                smtp.EnableSsl = false;
+                smtp.Host = "smtp.gmail.com";//"artechnic.in";
+                smtp.Port = 587;//2525;
+                smtp.EnableSsl = true;
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtp.Credentials = new NetworkCredential(fromAddress, fromPassword);
-                //smtp.Timeout = 20000;
+                smtp.Timeout = 20000;
             }
             smtp.Send(message);
         }

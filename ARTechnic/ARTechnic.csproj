@@ -325,6 +325,7 @@
     <Content Include="Content\css\font\moond41dd41d.eot" />
     <None Include="Properties\PublishProfiles\artechnic.com.pubxml" />
     <None Include="Properties\PublishProfiles\ARTechnic.pubxml" />
+    <None Include="Properties\PublishProfiles\debug-rajesh.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="portfolio.aspx" />
     <Content Include="pricing.aspx" />
